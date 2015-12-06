@@ -1,4 +1,4 @@
-﻿<Config>
+<Config>
 <Element>
 <!--autocreated by the starmade block editor-->
 <General>
@@ -22311,9 +22311,9 @@
 </Consistence>
 <CubatomConsistence/>
 <Controlling>
-<Element>RAIL_BLOCK_BASIC</Element>
-<Element>RAIL_BLOCK_CW</Element>
 <Element>RAIL_BLOCK_CCW</Element>
+<Element>RAIL_BLOCK_CW</Element>
+<Element>RAIL_BLOCK_BASIC</Element>
 </Controlling>
 <Price>500</Price>
 <Description>The rail speed controller is used to manipulate the speed of your rails. Place it down and connect from it to all the rails that should be controlled. Using shift+V in build mode will add all touching rail blocks in the same direction. Then connect any number of activation blocks from the rail speed controller. The number of active blocks in opposition to the number of inactive blocks determines the speed percentage. So 5 active and 5 inactive is 50% of max speed, the same as 100 active and 100 inactive -Structural Stats- $ARMOUR% Armor $HP HP</Description>
@@ -32171,23 +32171,23 @@
 <CubatomConsistence/>
 <ControlledBy>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>SALVAGE_CONTROLLER_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>RAIL_BLOCK_BASIC</Element>
-<Element>FACTORY_POWER_COIL_ID</Element>
 <Element>RAIL_BLOCK_DOCKER</Element>
+<Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
-<Element>CARGO_SPACE</Element>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <Price>100</Price>
 <Description>The Storage block functions like a persistent, dynamic inventory. This enables the user to store items from their inventory in it. You can expand its volume size by linking it to Cargo Space blocks. Press $ACTIVATE to access. Storage blocks can also act as filters, and can be linked to; Salvage systems, Logic blocks and Factories. This makes them quite useful in various automated setups. -Structural Stats- $ARMOUR% Armor $HP HP</Description>
@@ -32249,11 +32249,12 @@
 <CubatomConsistence/>
 <ControlledBy>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>SHIPYARD_COMPUTER</Element>
+<Element>FACTORY_POWER_COIL_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
 </ControlledBy>
 <Price>100</Price>
 <Description>Cargo Space blocks are used to expand the volume of a chest, this allows you to store more blocks in it. \n\r&#13;You have to link the Storage block to the Cargo Space blocks.</Description>
@@ -35771,12 +35772,12 @@
 <CubatomConsistence/>
 <Controlling>
 <Element>WEAPON_ID</Element>
+<Element>SCANNER_COMPUTER</Element>
 <Element>JUMP_DRIVE_CONTROLLER</Element>
 <Element>CLOAKING_ID</Element>
 <Element>THRUSTER_ID</Element>
-<Element>PULSE_CONTROLLER_ID</Element>
-<Element>SCANNER_COMPUTER</Element>
 <Element>RADAR_JAMMING_ID</Element>
+<Element>PULSE_CONTROLLER_ID</Element>
 </Controlling>
 <FullName>StarShip Core</FullName>
 <Price>1000</Price>
@@ -36256,21 +36257,21 @@
 <CubatomConsistence/>
 <ControlledBy>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
-<Element>CARGO_SPACE</Element>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <FullName>Capsule Refinery</FullName>
 <Price>200</Price>
@@ -36333,20 +36334,21 @@
 <CubatomConsistence/>
 <ControlledBy>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
 </Controlling>
 <FullName>Micro Assembler</FullName>
 <Price>100</Price>
@@ -36409,21 +36411,21 @@
 <CubatomConsistence/>
 <ControlledBy>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
-<Element>CARGO_SPACE</Element>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <FullName>Macro Assembler</FullName>
 <Price>100</Price>
@@ -36486,21 +36488,21 @@
 <CubatomConsistence/>
 <ControlledBy>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
-<Element>CARGO_SPACE</Element>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <FullName>Power Module Factory</FullName>
 <Price>300</Price>
@@ -36563,22 +36565,22 @@
 <CubatomConsistence/>
 <ControlledBy>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
-<Element>CARGO_SPACE</Element>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>STASH_ELEMENT</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <Price>750</Price>
 <Description>Manufactures advanced blocks from a variety of resources. Press $ACTIVATE to Open/Close the Factory's Internal Inventory. (Used for placing the necessary materials for recipes.) -Structural Stats- $ARMOUR% Armor $HP HP</Description>
@@ -36754,10 +36756,10 @@
 <CubatomConsistence/>
 <ControlledBy>
 <Element>FACTORY_SD1000</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>FACTORY_POWER_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <FullName>Macro Assembler Enhancer</FullName>
 <Price>750</Price>
@@ -40732,9 +40734,9 @@
 </Consistence>
 <CubatomConsistence/>
 <Controlling>
-<Element>CARGO_SPACE</Element>
-<Element>SHIPYARD_MODULE</Element>
 <Element>SHIPYARD_CORE_POSITION</Element>
+<Element>SHIPYARD_MODULE</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <Price>20000</Price>
 <Description>A shipyard has several features. To access them, just hit ‘R’ (Activate/Open) on the shipyard, and press the “Place Order” Button.\n\r&#13;Here you can choose from several commands depending on the shipyard’s current state (e.g. if a ship is docked or not)\n\r&#13;\n\r&#13;The Shipyard computer must be linked to both Shipyard Modules and exactly one Core Anchor to function.\n\r&#13;Link the computer and modules using C and V.\n\r&#13;\n\r&#13;-Structural Stats- $ARMOUR% Armor $HP HP</Description>
