@@ -1,7 +1,7 @@
 <BlockBehavior>
         <General>
                 <BasicValues>                        
-                        <DefensiveEffectMaxPercentMassMult>10</DefensiveEffectMaxPercentMassMult>   <!-- multiplication of mass used as max percent for defensive effects: ratio = effectBlockCount / (mass*DefensiveEffectMaxPercentMassMult)-->
+                        <DefensiveEffectMaxPercentMassMult>5</DefensiveEffectMaxPercentMassMult>   <!-- multiplication of mass used as max percent for defensive effects: ratio = effectBlockCount / (mass*DefensiveEffectMaxPercentMassMult)-->
                         <ShieldExtraCapacityMultPerUnit>1</ShieldExtraCapacityMultPerUnit>   <!-- totalUnitShieldRecharge = (unitSize*ShieldExtraRechargeMultPerUnit) -->
                         <ShieldExtraRechargeMultPerUnit>1</ShieldExtraRechargeMultPerUnit>   <!-- shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul -->
                         <ShieldDoInitialWithoutFromCore>true</ShieldDoInitialWithoutFromCore> <!-- if true, the ship will have initial shields without any shield blocks. if false, the initial values are added when the first shield block is placed -->
@@ -11,14 +11,14 @@
                         <ShieldCapacityTotalMul>1000</ShieldCapacityTotalMul>   <!-- shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul -->
 
                         <ShieldRechargeInitial>0</ShieldRechargeInitial> <!-- initial shield recharge on ships without shieldRecharge blocks -->
-                        <ShieldRechargePow>1.0</ShieldRechargePow>   <!-- shieldCapacity = ((totalUnitShieldCapacity*1.0)^0.9)*55 -->
+                        <ShieldRechargePow>0.9777</ShieldRechargePow>   <!-- shieldCapacity = ((totalUnitShieldCapacity*1.0)^0.9)*55 -->
                         <ShieldRechargePreMul>1.0</ShieldRechargePreMul>
-                        <ShieldRechargeTotalMul>5.5</ShieldRechargeTotalMul>
-                        <ShieldRechargeCycleTime>1.0</ShieldRechargeCycleTime> <!-- time in secs between recharge cycles. This value is relative, so changing it won't affect the time a ship needs to fully recharge (e.g. twice as many cycles -> half as many reacharge per cycle)-->
+                        <ShieldRechargeTotalMul>2.5</ShieldRechargeTotalMul>
+                        <ShieldRechargeCycleTime>0.1</ShieldRechargeCycleTime> <!-- time in secs between recharge cycles. This value is relative, so changing it won't affect the time a ship needs to fully recharge (e.g. twice as many cycles -> half as many reacharge per cycle)-->
                         <ShieldRecoveryTimeAfterOutage>10</ShieldRecoveryTimeAfterOutage> <!-- time, the shield will not recharge after reaching 0 -->
                         <ShieldDirectRecoveryTime>10</ShieldDirectRecoveryTime> <!-- this time is set to the value gives after each hit sustained. In direct recovery, <ShieldRecoveryMultPerPercent> is applied. Otherwise it's running on full recharge -->
-                        <ShieldRecoveryMultPerPercent>0.5</ShieldRecoveryMultPerPercent> <!-- MAX % at high health   -   in direct recovery, the shield recharge will be multiplied by (1-((shield/max)*thisValue));-->
-                        <ShieldRecoveryMult>0.25</ShieldRecoveryMult> <!-- MAX % at low health   - in direct recovery, the shield recharge will be multiplied: recharge = recharge*thisValue;-->
+                        <ShieldRecoveryMultPerPercent>1.0</ShieldRecoveryMultPerPercent> <!-- MAX % at high health   -   in direct recovery, the shield recharge will be multiplied by (1-((shield/max)*thisValue));-->
+                        <ShieldRecoveryMult>0.1</ShieldRecoveryMult> <!-- MAX % at low health   - in direct recovery, the shield recharge will be multiplied: recharge = recharge*thisValue;-->
                         <ShieldRechargePowerConsuption>10</ShieldRechargePowerConsuption> <!-- (when shield < 100%) per regen point -->
                         <ShieldFullPowerConsuption>1</ShieldFullPowerConsuption> <!-- (when shield == 100%) per regen point -->
                         <ShieldDockTrasferLimit>0.25</ShieldDockTrasferLimit> <!-- Up to which fill status a rail docked entity up in the chain (towards root) will take the hit (e.g. 0.25 means that a mothership (and docks inbetween) will take the shots of a turret or other rail dock as long as they have more than 25% of their max shields left -->
@@ -26,9 +26,9 @@
                         <PowerCeiling>2000000.0</PowerCeiling>
                         <PowerGrowth>1.000696</PowerGrowth>
                         <PowerLinearGrowth>25.0</PowerLinearGrowth>
-                        <PowerRecoveryTime>1000</PowerRecoveryTime>
-                        <PowerBaseCapacity>50000</PowerBaseCapacity>
-                        <PowerTankCapacityLinear>1000</PowerTankCapacityLinear> <!-- multiplication per unit -->
+                        <PowerRecoveryTime>10000</PowerRecoveryTime>
+                        <PowerBaseCapacity>25000</PowerBaseCapacity>
+                        <PowerTankCapacityLinear>2000</PowerTankCapacityLinear> <!-- multiplication per unit -->
                         <PowerTankCapacityPow>1.05</PowerTankCapacityPow> <!-- unitSize^x per unit -->
                         <TakeOffEffectPowerConsumptionMult>1</TakeOffEffectPowerConsumptionMult> <!-- multiplied by force -->
                         <EvadeEffectPowerConsumptionMult>1</EvadeEffectPowerConsumptionMult> <!-- multiplied by force -->
@@ -121,13 +121,6 @@
                                <Amount>0.5</Amount>
                            </Item>
 						   
-                           <Item conditionhp="0.55">
-                               <Type>CONTROL_LOSS</Type>
-                           </Item>
-						   
-                           <Item conditionhp="0.5">
-                               <Type>OVERHEATING</Type>
-                           </Item>
 						   <Item conditionhp="0.5">
                                <Type>POWER</Type>
                                <Amount>0.0</Amount>
@@ -182,7 +175,7 @@
 
         <JumpDrive>
                 <BasicValues>
-               		<RatioNeededToTotalBlockCount>0.05</RatioNeededToTotalBlockCount>
+               		<RatioNeededToTotalBlockCount>0.07</RatioNeededToTotalBlockCount>
 					<ChargeNeededForJump>230000</ChargeNeededForJump>
 					<ChargeNeededForJumpPerBlock>1200</ChargeNeededForJumpPerBlock> <!-- (in drive module blocks) added to <chargeNeededForJump> -->
 					<ChargeNeededForJumpPerBlockAfterRatioMet>1</ChargeNeededForJumpPerBlockAfterRatioMet> <!-- (in drive module blocks for every block after ratio is met -->
@@ -211,7 +204,7 @@
 					<ChargeNeededForScanPerBlock>1200</ChargeNeededForScanPerBlock> <!-- (in drive module blocks) added to <chargeNeededForScan> -->
 					<ChargeNeededForScanPerBlockAfterRatioMet>1</ChargeNeededForScanPerBlockAfterRatioMet> <!-- (in drive module blocks for every block after ratio is met -->
 					<ReloadMsAfterUseMs>10</ReloadMsAfterUseMs> 
-					<DefaultScanDistance>4</DefaultScanDistance> 
+					<DefaultScanDistance>16</DefaultScanDistance> 
 					<EnemySystemDistanceMult>0.5</EnemySystemDistanceMult> <!-- Scan distance modifier for scanners in an enemy territory -->
 					<AllySystemDistanceMult>1.5</AllySystemDistanceMult> <!-- Scan distance modifier for allied and own territory (owner additionally scans whole 16x16x16 sector system)--> 
 					<ChargeAddedPerSecond>5000</ChargeAddedPerSecond> 
@@ -617,7 +610,7 @@
                 <BasicValues>
                         <Damage>10</Damage>
                         <Distance>1</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>10</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <Speed>2.5</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
                         <PowerConsumption>100</PowerConsumption>
                         <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
@@ -663,9 +656,9 @@
         <DumbMissile>
                 <BasicValues>
                         <Damage>300</Damage>
-                        <Distance>1.6</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Distance>0.5333</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Radius>12</Radius>                       <!--this a maximum blast radius -->
-                        <Speed>1.98</Speed>                
+                        <Speed>0.495</Speed>                
                         <ReloadMs>15000</ReloadMs>
                         <PowerConsumption>1500</PowerConsumption> <!-- deviates from 10 power/1damage formula, missiles can easily be shot down -->
                         <AdditionalPowerConsumptionPerUnitMult>0.025</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
@@ -718,10 +711,10 @@
         </DumbMissile>
         <DamageBeam>
                 <BasicValues>
-                        <DamagePerHit>10</DamagePerHit>  
+                        <DamagePerHit>5</DamagePerHit>  
                         <PowerConsumptionPerTick>100</PowerConsumptionPerTick> 
-                        <Distance>0.5</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
-                        <TickRate>0.2</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
+                        <Distance>0.2</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
+                        <TickRate>0.1</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
                         <CoolDown>5.0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
                         <BurstTime>1</BurstTime> <!-- Time the beam will fire -->
                         <InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -1385,7 +1378,7 @@
 						<DefensiveEffectType>STATUS_SHIELD_HARDEN</DefensiveEffectType> 
 						<EffectConnectDescription>Does extra damage against shields,\nbut less against blocks</EffectConnectDescription>
 						<EffectIgnoresShields>false</EffectIgnoresShields>
-						<DefensiveEffectCapPercent>0.6</DefensiveEffectCapPercent>
+						<DefensiveEffectCapPercent>0.8</DefensiveEffectCapPercent>
                 </BasicValues>
         </IonEffect>
         <OverdriveEffect>
