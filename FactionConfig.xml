@@ -32,7 +32,7 @@
 
 	<FactionPointSpending>
 		<BasicValues>
-			<BasicFlatCost>-10</BasicFlatCost>
+			<BasicFlatCost>10</BasicFlatCost>
 			<SpentAbsoluteForDeath>10</SpentAbsoluteForDeath>
 			<SpentForDeathMultByMemberCount>2</SpentForDeathMultByMemberCount>
 			<SpentPerControlledSystem>-2</SpentPerControlledSystem>
@@ -42,8 +42,8 @@
 	<FactionPointGalaxy>
 		<BasicValues>
 			<FreeHomeBase>true</FreeHomeBase>
-			<PenaltyFromCenterMult>1</PenaltyFromCenterMult>
-			<PenatlyPerDistanceUnitFromHomeBase>-2</PenatlyPerDistanceUnitFromHomeBase>
+			<PenaltyFromCenterMult>2</PenaltyFromCenterMult>
+			<PenatlyPerDistanceUnitFromHomeBase>-1</PenatlyPerDistanceUnitFromHomeBase>
 			<ThresholdTakenRadiusForTradeGates>30</ThresholdTakenRadiusForTradeGates>
 		</BasicValues>
 	</FactionPointGalaxy>

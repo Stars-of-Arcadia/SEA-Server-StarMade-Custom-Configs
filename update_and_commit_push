@@ -1,0 +1,19 @@
+#!/bin/bash
+
+STARMADE_PATH='/home/steam/starmade/StarMade'
+
+BLOCKCONFIG_PATH='data/config/'
+BLOCKBEHAVIOR_PATH='data/config/'
+FACTIONCONFIG_PATH='customFactionConfig/'
+GAMECONFIG_PATH=''
+
+cp BlockConfig.xml $STARMADE_PATH/$BLOCKCONFIG_PATH
+cp blockBehaviorConfig.xml $STARMADE_PATH/$BLOCKCONFIG_PATH
+cp FactionConfig.xml $STARMADE_PATH/$FACTIONCONFIG_PATH
+cp GameConfig.xml $STARMADE_PATH/$GAMECONFIG_PATH
+cp StarMade-dedicated-server-linux.sh $STARMADE_PATH
+
+git add .
+git commit -a -m "Updated"
+
+git push origin master

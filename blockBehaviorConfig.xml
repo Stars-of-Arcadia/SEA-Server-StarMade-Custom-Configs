@@ -6,9 +6,9 @@
                         <ShieldExtraRechargeMultPerUnit>1</ShieldExtraRechargeMultPerUnit>   <!-- shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul -->
                         <ShieldDoInitialWithoutFromCore>true</ShieldDoInitialWithoutFromCore> <!-- if true, the ship will have initial shields without any shield blocks. if false, the initial values are added when the first shield block is placed -->
                         <ShieldCapacityInitial>10000</ShieldCapacityInitial> <!-- initial shield capacity on ships without shieldCapacity blocks -->
-                        <ShieldCapacityPow>0.9777</ShieldCapacityPow>
-                        <ShieldCapacityPreMul>1.0</ShieldCapacityPreMul>
-                        <ShieldCapacityTotalMul>1000</ShieldCapacityTotalMul>   <!-- shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul -->
+                        <ShieldCapacityPow>0.834979</ShieldCapacityPow>
+                        <ShieldCapacityPreMul>0.6</ShieldCapacityPreMul>
+                        <ShieldCapacityTotalMul>10000</ShieldCapacityTotalMul>   <!-- shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul -->
 
                         <ShieldRechargeInitial>0</ShieldRechargeInitial> <!-- initial shield recharge on ships without shieldRecharge blocks -->
                         <ShieldRechargePow>0.9777</ShieldRechargePow>   <!-- shieldCapacity = ((totalUnitShieldCapacity*1.0)^0.9)*55 -->
@@ -29,7 +29,7 @@
                         <PowerRecoveryTime>10000</PowerRecoveryTime>
                         <PowerBaseCapacity>25000</PowerBaseCapacity>
                         <PowerTankCapacityLinear>2000</PowerTankCapacityLinear> <!-- multiplication per unit -->
-                        <PowerTankCapacityPow>1.05</PowerTankCapacityPow> <!-- unitSize^x per unit -->
+                        <PowerTankCapacityPow>1.08</PowerTankCapacityPow> <!-- unitSize^x per unit -->
                         <TakeOffEffectPowerConsumptionMult>1</TakeOffEffectPowerConsumptionMult> <!-- multiplied by force -->
                         <EvadeEffectPowerConsumptionMult>1</EvadeEffectPowerConsumptionMult> <!-- multiplied by force -->
                         <PersonalSalvageBeamBonus>10</PersonalSalvageBeamBonus>   <!-- bonus mult of raw resources when salvaging with handheld salvage beam (everything between whole numbers is chance (e.g. 1.25 give 25% chance of an extra raw yield) -->
@@ -141,10 +141,10 @@
                 <BasicValues>
                         <MulTotalThrust>1</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <PowTotalThrust>0.87</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <ThrustPowerConsuptionPerBlock>1</ThrustPowerConsuptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->      
+                        <ThrustPowerConsuptionPerBlock>10</ThrustPowerConsuptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->      
                         <PowPerThrustCollection>1</PowPerThrustCollection>       
-                        <UnitCalcStyle>BOX_DIM_MULT</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
-                        <UnitCalcMult>2.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
+                        <UnitCalcStyle>BOX_DIM_ADD</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
+                        <UnitCalcMult>1.1</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
                 </BasicValues>
         </Thruster>
         <Cloaking>
@@ -255,8 +255,8 @@
         <Cargo>
 			<BasicValues>
 				<CapacityPerBlocMult>100.0</CapacityPerBlocMult>  <!-- simple capacity per block added -->
-	        	<CapacityPerGroupQuadratic>1.0</CapacityPerGroupQuadratic> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
-				<PercentageBledPerMinute>0.1</PercentageBledPerMinute> <!-- how much inventory is lost per minute if over capacity (must be between [0, 1]) -->
+	        	<CapacityPerGroupQuadratic>3.0</CapacityPerGroupQuadratic> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
+				<PercentageBledPerMinute>0.01</PercentageBledPerMinute> <!-- how much inventory is lost per minute if over capacity (must be between [0, 1]) -->
 				
 				<InventoryBaseCapacity>100</InventoryBaseCapacity> <!-- base capacity for all block based inventories -->
 				<PersonalInventoryBaseCapacity>2000</PersonalInventoryBaseCapacity> <!-- base capacity for the personal player inventory-->
@@ -377,7 +377,7 @@
                         <TickRate>0.5</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
                         <PowerIncOnTargetFromBeamPower>1.0</PowerIncOnTargetFromBeamPower> <!-- percentage (0 to 1) of SupplyPerHit that gets added to the target -->
                         <PowerConsumptionOnShooterFromBeamPower>0.0</PowerConsumptionOnShooterFromBeamPower> <!-- percentage (0 to 1) of SupplyPerHit that consumed (additionally to PowerConsumptionPerTick) on shooter -->
-                        <SupplyPerHit>240</SupplyPerHit>
+                        <SupplyPerHit>150</SupplyPerHit>
                         <PowerConsumptionPerTick>300</PowerConsumptionPerTick>
                         <Distance>0.24</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
                         <CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
@@ -610,7 +610,7 @@
                 <BasicValues>
                         <Damage>10</Damage>
                         <Distance>1</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>2.5</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <Speed>1.875</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
                         <PowerConsumption>100</PowerConsumption>
                         <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
@@ -658,18 +658,17 @@
                         <Damage>300</Damage>
                         <Distance>0.5333</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Radius>12</Radius>                       <!--this a maximum blast radius -->
-                        <Speed>0.495</Speed>                
+                        <Speed>0.371</Speed>                
                         <ReloadMs>15000</ReloadMs>
                         <PowerConsumption>1500</PowerConsumption> <!-- deviates from 10 power/1damage formula, missiles can easily be shot down -->
                         <AdditionalPowerConsumptionPerUnitMult>0.025</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
                         <ChasingTurnSpeedWithTargetInFront>1.0</ChasingTurnSpeedWithTargetInFront> 
                         <ChasingTurnSpeedWithTargetInBack>0.5</ChasingTurnSpeedWithTargetInBack> 
-                        
                 </BasicValues>
                 <Combination>
                         <Cannon>
                                 <Damage style="nerf" value="15" linear="true" />
-                                <Reload style="buff" inverse="true" value="15" />
+                                <Reload style="buff" inverse="true" value="30" />
                                 <Distance style="skip" />
                                 <BlastRadius style="nerf" value="2" />
                                 <Speed style="buff" value="2.0"/>
@@ -767,9 +766,9 @@
         </DamageBeam>
         <DamagePulse>
                 <BasicValues>
-                        <Damage>100</Damage>  <!-- Uses the missile damage system, detonation point is <Radius> blocks away from output block -->
-                        <ReloadMs>10000</ReloadMs>
-                        <Radius>10</Radius>
+                        <Damage>80</Damage>  <!-- Uses the missile damage system, detonation point is <Radius> blocks away from output block -->
+                        <ReloadMs>8000</ReloadMs>
+                        <Radius>48</Radius>
                         <PowerConsumption>500</PowerConsumption> <!-- deviates from 10 power/1damage formula for now, it's hard to use this weapon -->
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
                 </BasicValues>
@@ -777,19 +776,19 @@
                         <Cannon>
                                 <PulsePower style="nerf" value="5" linear="true" />                <!-- this is the same as PowerPerHit -->
                                 <Reload style="buff" inverse="true" value="5" />
-                                <Radius style="skip" />
+                                <Radius style="nerf" value="4.8" />
                                 <PowerConsumption style="nerf" value="5" linear="true" />
                         </Cannon>
                         <Missile>
                                 <PulsePower style="nerf" value="5" linear="true" />             <!-- since the pulse is a localized burst, creating multiples overlapping is pointless, so we simply mimic the cannon slaved effect and increase rate of fire -->
                                 <Reload style="buff" inverse="true" value="5" />  <!-- Ideally this variation should drop a single munition that pulses 5 times where it is dropped -->
-                                <Radius style="skip" />
+                                <Radius style="nerf" value="4.5" />
                                 <PowerConsumption style="nerf" value="5" linear="true" />
                         </Missile>
                         <Beam>
                                 <PulsePower style="buff" value="2" linear="true" />
                                 <Reload style="nerf" inverse="true" value="2" />
-                                <Radius style="buff" value="1.5" />
+                                <Radius style="buff" value="2" />
                                 <PowerConsumption style="nerf" inverse="true" value="2" linear="true" />
                         </Beam>
                         <Pulse>
@@ -1123,7 +1122,7 @@
                         <CannonArmorEfficiency>0</CannonArmorEfficiency>
                         <CannonPullEffect>0</CannonPullEffect>
                         <CannonPushEffect>0</CannonPushEffect>
-                        <CannonGrabEffect>2</CannonGrabEffect>
+                        <CannonGrabEffect>5</CannonGrabEffect>
                         <CannonSystemHPBonus>0</CannonSystemHPBonus>
                         <CannonArmorHPBonus>0</CannonArmorHPBonus>
                         
@@ -1136,7 +1135,7 @@
                         <MissileArmorEfficiency>0</MissileArmorEfficiency>
                         <MissilePullEffect>0</MissilePullEffect>
                         <MissilePushEffect>0</MissilePushEffect>
-                        <MissileGrabEffect>2</MissileGrabEffect>
+                        <MissileGrabEffect>5</MissileGrabEffect>
                         <MissileSystemHPBonus>0</MissileSystemHPBonus>
                         <MissileArmorHPBonus>0</MissileArmorHPBonus>
                         <MissileTotalDamageBonus>0</MissileTotalDamageBonus>
@@ -1149,7 +1148,7 @@
                         <PulseArmorEfficiency>0</PulseArmorEfficiency>
                         <PulsePullEffect>0</PulsePullEffect>
                         <PulsePushEffect>0</PulsePushEffect>
-                        <PulseGrabEffect>2</PulseGrabEffect>
+                        <PulseGrabEffect>5</PulseGrabEffect>
                         <PulseSystemHPBonus>0</PulseSystemHPBonus>
                         <PulseArmorHPBonus>0</PulseArmorHPBonus>
                         <PulseTotalDamageBonus>0</PulseTotalDamageBonus>
@@ -1162,7 +1161,7 @@
                         <BeamArmorEfficiency>0</BeamArmorEfficiency>
                         <BeamPullEffect>0</BeamPullEffect>
                         <BeamPushEffect>0</BeamPushEffect>
-                        <BeamGrabEffect>2</BeamGrabEffect>
+                        <BeamGrabEffect>5</BeamGrabEffect>
                         <BeamSystemHPBonus>0</BeamSystemHPBonus>
                         <BeamArmorHPBonus>0</BeamArmorHPBonus>
                         
@@ -1189,11 +1188,10 @@
                         <CannonExplosiveRadius>0</CannonExplosiveRadius> <!-- currently capped at 1. may be implemented later-->
                         <CannonArmorEfficiency>0</CannonArmorEfficiency>
                         <CannonPullEffect>0</CannonPullEffect>
-                        <CannonPushEffect>2</CannonPushEffect>
+                        <CannonPushEffect>5</CannonPushEffect>
                         <CannonGrabEffect>0</CannonGrabEffect>
                         <CannonSystemHPBonus>0</CannonSystemHPBonus>
                         <CannonArmorHPBonus>0</CannonArmorHPBonus>
-                        
                         
                         <MissileBasePowerConsumption>0</MissileBasePowerConsumption> <!-- power/shot cost additionally added (normalCost+(normalCost*thisValue*effectRatio)) -->
                         <MissileBlockDamageBonus>-1</MissileBlockDamageBonus>
@@ -1202,7 +1200,7 @@
                         <MissileExplosiveRadius>0</MissileExplosiveRadius>
                         <MissileArmorEfficiency>0</MissileArmorEfficiency>
                         <MissilePullEffect>0</MissilePullEffect>
-                        <MissilePushEffect>2</MissilePushEffect>
+                        <MissilePushEffect>5</MissilePushEffect>
                         <MissileGrabEffect>0</MissileGrabEffect>
                         <MissileSystemHPBonus>0</MissileSystemHPBonus>
                         <MissileArmorHPBonus>0</MissileArmorHPBonus>
@@ -1215,7 +1213,7 @@
                         <PulseExplosiveRadius>0</PulseExplosiveRadius>
                         <PulseArmorEfficiency>0</PulseArmorEfficiency>
                         <PulsePullEffect>0</PulsePullEffect>
-                        <PulsePushEffect>2</PulsePushEffect>
+                        <PulsePushEffect>5</PulsePushEffect>
                         <PulseGrabEffect>0</PulseGrabEffect>
                         <PulseSystemHPBonus>0</PulseSystemHPBonus>
                         <PulseArmorHPBonus>0</PulseArmorHPBonus>
@@ -1228,7 +1226,7 @@
                         <BeamExplosiveRadius>0</BeamExplosiveRadius> <!-- currently capped at 1. may be implemented later-->
                         <BeamArmorEfficiency>0</BeamArmorEfficiency>
                         <BeamPullEffect>0</BeamPullEffect>
-                        <BeamPushEffect>2</BeamPushEffect>
+                        <BeamPushEffect>5</BeamPushEffect>
                         <BeamGrabEffect>0</BeamGrabEffect>
                         <BeamSystemHPBonus>0</BeamSystemHPBonus>
                         <BeamArmorHPBonus>0</BeamArmorHPBonus>
@@ -1255,7 +1253,7 @@
                         <CannonPowerDamageBonus>0</CannonPowerDamageBonus>
                         <CannonExplosiveRadius>0</CannonExplosiveRadius> <!-- currently capped at 1. may be implemented later-->
                         <CannonArmorEfficiency>0</CannonArmorEfficiency>
-                        <CannonPullEffect>2</CannonPullEffect>
+                        <CannonPullEffect>5</CannonPullEffect>
                         <CannonPushEffect>0</CannonPushEffect>
                         <CannonGrabEffect>0</CannonGrabEffect>
                         <CannonSystemHPBonus>0</CannonSystemHPBonus>
@@ -1268,7 +1266,7 @@
                         <MissilePowerDamageBonus>0</MissilePowerDamageBonus>
                         <MissileExplosiveRadius>0</MissileExplosiveRadius>
                         <MissileArmorEfficiency>0</MissileArmorEfficiency>
-                        <MissilePullEffect>2</MissilePullEffect>
+                        <MissilePullEffect>5</MissilePullEffect>
                         <MissilePushEffect>0</MissilePushEffect>
                         <MissileGrabEffect>0</MissileGrabEffect>
                         <MissileSystemHPBonus>0</MissileSystemHPBonus>
@@ -1281,7 +1279,7 @@
                         <PulsePowerDamageBonus>0</PulsePowerDamageBonus>
                         <PulseExplosiveRadius>0</PulseExplosiveRadius>
                         <PulseArmorEfficiency>0</PulseArmorEfficiency>
-                        <PulsePullEffect>2</PulsePullEffect>
+                        <PulsePullEffect>5</PulsePullEffect>
                         <PulsePushEffect>0</PulsePushEffect>
                         <PulseGrabEffect>0</PulseGrabEffect>
                         <PulseSystemHPBonus>0</PulseSystemHPBonus>
@@ -1294,7 +1292,7 @@
                         <BeamPowerDamageBonus>0</BeamPowerDamageBonus>
                         <BeamExplosiveRadius>0</BeamExplosiveRadius> <!-- currently capped at 1. may be implemented later-->
                         <BeamArmorEfficiency>0</BeamArmorEfficiency>
-                        <BeamPullEffect>2</BeamPullEffect>
+                        <BeamPullEffect>5</BeamPullEffect>
                         <BeamPushEffect>0</BeamPushEffect>
                         <BeamGrabEffect>0</BeamGrabEffect>
                         <BeamSystemHPBonus>0</BeamSystemHPBonus>

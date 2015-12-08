@@ -43,6 +43,14 @@
 			<SubId>7</SubId> <!-- marker -->
 			<Slot>inventory</Slot>
 		</Tool>
+		<Tool>
+			<SubId>8</SubId> <!-- marker -->
+			<Slot>inventory</Slot>
+		</Tool>
+		<Tool>
+			<SubId>9</SubId> <!-- marker -->
+			<Slot>inventory</Slot>
+		</Tool>
 <!-- MIGHT NEED TO REMOVE THIS -->
 		
 		<Helmet>
