@@ -255,7 +255,7 @@
         <Cargo>
 			<BasicValues>
 				<CapacityPerBlocMult>100.0</CapacityPerBlocMult>  <!-- simple capacity per block added -->
-	        	<CapacityPerGroupQuadratic>3.0</CapacityPerGroupQuadratic> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
+	        	<CapacityPerGroupQuadratic>2.35</CapacityPerGroupQuadratic> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
 				<PercentageBledPerMinute>0.01</PercentageBledPerMinute> <!-- how much inventory is lost per minute if over capacity (must be between [0, 1]) -->
 				
 				<InventoryBaseCapacity>100</InventoryBaseCapacity> <!-- base capacity for all block based inventories -->
