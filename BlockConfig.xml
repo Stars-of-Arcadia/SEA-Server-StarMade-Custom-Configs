@@ -32593,8 +32593,8 @@
 </Block>
 <Block icon="17" name="Warhead" textureId="422, 422, 421, 421, 422, 422" type="EXPLOSIVE_ID">
 <Consistence>
-<Item count="2">METAL_MESH</Item>
-<Item count="3">POWER_COIL_ID</Item>
+<Item count="200">METAL_MESH</Item>
+<Item count="300">POWER_COIL_ID</Item>
 </Consistence>
 <CubatomConsistence/>
 <ControlledBy>
@@ -32611,7 +32611,7 @@
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>10</StructureHPContribution>
 <Transparency>false</Transparency>
-<InShop>true</InShop>
+<InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
 <Enterable>false</Enterable>
