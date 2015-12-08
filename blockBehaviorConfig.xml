@@ -34,8 +34,8 @@
                         <EvadeEffectPowerConsumptionMult>1</EvadeEffectPowerConsumptionMult> <!-- multiplied by force -->
                         <PersonalSalvageBeamBonus>10</PersonalSalvageBeamBonus>   <!-- bonus mult of raw resources when salvaging with handheld salvage beam (everything between whole numbers is chance (e.g. 1.25 give 25% chance of an extra raw yield) -->
                        
-                        <RailMassEnhancerFreeMass>50.0</RailMassEnhancerFreeMass>   <!-- mass that is free to place without the need of a rail mass enhancer -->
-                        <RailMassEnhancerMassPerEnhancer>5.0</RailMassEnhancerMassPerEnhancer>   <!-- how much mass is free to place for each rail mass enhancer in the structure -->
+                        <RailMassEnhancerFreeMass>1000.0</RailMassEnhancerFreeMass>   <!-- mass that is free to place without the need of a rail mass enhancer -->
+                        <RailMassEnhancerMassPerEnhancer>200.0</RailMassEnhancerMassPerEnhancer>   <!-- how much mass is free to place for each rail mass enhancer in the structure -->
                         <RailMassEnhancerPowerConsumedPerEnhancer>25.0</RailMassEnhancerPowerConsumedPerEnhancer>   <!-- How much power per second is consumed my rail enhancer blocks -->
                         <RailMassEnhancerPercentCostPerMassAboveEnhancerProvided>0.05</RailMassEnhancerPercentCostPerMassAboveEnhancerProvided>   <!-- how much % of mass speed (between 0 and 1) is subtracted for every one mass placed on a dock that is above the current mass limit (free blocks + enhancers) (e.g. at 0.1, for every block placed the speed is one percent slower)-->
                         
