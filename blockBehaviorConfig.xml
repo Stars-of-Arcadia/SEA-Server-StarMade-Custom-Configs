@@ -24,7 +24,7 @@
                         <ShieldDockTrasferLimit>0.25</ShieldDockTrasferLimit> <!-- Up to which fill status a rail docked entity up in the chain (towards root) will take the hit (e.g. 0.25 means that a mothership (and docks inbetween) will take the shots of a turret or other rail dock as long as they have more than 25% of their max shields left -->
                         <PowerDivFactor>0.333</PowerDivFactor>
                         <PowerCeiling>2000000.0</PowerCeiling>
-                        <PowerGrowth>1.000696</PowerGrowth>
+                        <PowerGrowth>1.000384</PowerGrowth>
                         <PowerLinearGrowth>25.0</PowerLinearGrowth>
                         <PowerRecoveryTime>10000</PowerRecoveryTime>
                         <PowerBaseCapacity>25000</PowerBaseCapacity>
@@ -189,7 +189,7 @@
         <JumpInhibitor>
                 <BasicValues>
 					<DischargePerSecond>10000</DischargePerSecond> 
-					<DischargePerSecondPerBlock>50</DischargePerSecondPerBlock> <!-- (in module blocks) -->
+					<DischargePerSecondPerBlock>100</DischargePerSecondPerBlock> <!-- (in module blocks) -->
 					<PowerConsumptionPerSecond>20000</PowerConsumptionPerSecond> 
 					<PowerConsumptionPerSecondPerBlock>100</PowerConsumptionPerSecondPerBlock> <!-- (in module blocks) -->
 					<DischargeFriendlyShips>true</DischargeFriendlyShips>
