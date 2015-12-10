@@ -9,8 +9,8 @@
 
 	<FactionSystemOwnerBonus>
 		<BasicValues>
-			<MiningBonusOwner>0</MiningBonusOwner>
-			<MiningBonusOthers>0</MiningBonusOthers>
+			<MiningBonusOwner>1</MiningBonusOwner>
+			<MiningBonusOthers>1</MiningBonusOthers>
 		</BasicValues>
 	</FactionSystemOwnerBonus>
 
@@ -35,7 +35,7 @@
 			<BasicFlatCost>10</BasicFlatCost>
 			<SpentAbsoluteForDeath>10</SpentAbsoluteForDeath>
 			<SpentForDeathMultByMemberCount>2</SpentForDeathMultByMemberCount>
-			<SpentPerControlledSystem>-2</SpentPerControlledSystem>
+			<SpentPerControlledSystem>-10</SpentPerControlledSystem>
 		</BasicValues>
 	</FactionPointSpending>
 
@@ -43,7 +43,7 @@
 		<BasicValues>
 			<FreeHomeBase>true</FreeHomeBase>
 			<PenaltyFromCenterMult>2</PenaltyFromCenterMult>
-			<PenatlyPerDistanceUnitFromHomeBase>-1</PenatlyPerDistanceUnitFromHomeBase>
+			<PenatlyPerDistanceUnitFromHomeBase>1</PenatlyPerDistanceUnitFromHomeBase>
 			<ThresholdTakenRadiusForTradeGates>30</ThresholdTakenRadiusForTradeGates>
 		</BasicValues>
 	</FactionPointGalaxy>
