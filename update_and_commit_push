@@ -2,7 +2,7 @@
 
 STARMADE_PATH='/home/steam/starmade/StarMade'
 
-BLOCKCONFIG_PATH='data/config/'
+BLOCKCONFIG_PATH='customBlockConfig/BlockConfigImport.xml' # different name
 BLOCKBEHAVIOR_PATH='data/config/'
 FACTIONCONFIG_PATH='customFactionConfig/'
 GAMECONFIG_PATH=''
