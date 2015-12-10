@@ -120,6 +120,14 @@
                                <Type>THRUST</Type>
                                <Amount>0.5</Amount>
                            </Item>
+
+                           <Item conditionhp="0.55">
+                               <Type>CONTROL_LOSS</Type>
+                           </Item>
+						   
+                           <Item conditionhp="0.5">
+                               <Type>OVERHEATING</Type>
+                           </Item>
 						   
 						   <Item conditionhp="0.5">
                                <Type>POWER</Type>
