@@ -8,7 +8,7 @@ FACTIONCONFIG_PATH='customFactionConfig/'
 GAMECONFIG_PATH=''
 
 cp BlockConfig.xml $STARMADE_PATH/$BLOCKCONFIG_PATH
-cp blockBehaviorConfig.xml $STARMADE_PATH/$BLOCKCONFIG_PATH
+cp blockBehaviorConfig.xml $STARMADE_PATH/$BLOCKBEHAVIOR_PATH
 cp FactionConfig.xml $STARMADE_PATH/$FACTIONCONFIG_PATH
 cp GameConfig.xml $STARMADE_PATH/$GAMECONFIG_PATH
 cp StarMade-dedicated-server-linux.sh $STARMADE_PATH
