@@ -42,8 +42,8 @@
 	<FactionPointGalaxy>
 		<BasicValues>
 			<FreeHomeBase>true</FreeHomeBase>
-			<PenaltyFromCenterMult>0.1</PenaltyFromCenterMult>
-			<PenatlyPerDistanceUnitFromHomeBase>1</PenatlyPerDistanceUnitFromHomeBase>
+			<PenaltyFromCenterMult>0.5</PenaltyFromCenterMult>
+			<PenatlyPerDistanceUnitFromHomeBase>0.5</PenatlyPerDistanceUnitFromHomeBase>
 			<ThresholdTakenRadiusForTradeGates>30</ThresholdTakenRadiusForTradeGates>
 		</BasicValues>
 	</FactionPointGalaxy>
