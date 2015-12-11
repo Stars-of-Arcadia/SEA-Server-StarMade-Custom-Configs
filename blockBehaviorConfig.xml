@@ -148,9 +148,9 @@
         <Thruster>
                 <BasicValues>
                         <MulTotalThrust>1</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <PowTotalThrust>0.834979</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <PowTotalThrust>0.75</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <ThrustPowerConsuptionPerBlock>10</ThrustPowerConsuptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->      
-                        <PowPerThrustCollection>1</PowPerThrustCollection>
+                        <PowPerThrustCollection>1.05</PowPerThrustCollection>
                         <UnitCalcStyle>BOX_DIM_MULT</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
                         <UnitCalcMult>1</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
                 </BasicValues>
