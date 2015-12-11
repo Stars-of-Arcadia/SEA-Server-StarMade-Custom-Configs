@@ -3,7 +3,7 @@
 	<FactionActivity>
 		<BasicValues>
 			<SetInactiveAfterHours>48</SetInactiveAfterHours>
-			<SetActiveAfterOnlineForMin>1</SetActiveAfterOnlineForMin>
+			<SetActiveAfterOnlineForMin>2</SetActiveAfterOnlineForMin>
 		</BasicValues>
 	</FactionActivity>
 
@@ -42,7 +42,7 @@
 	<FactionPointGalaxy>
 		<BasicValues>
 			<FreeHomeBase>true</FreeHomeBase>
-			<PenaltyFromCenterMult>2</PenaltyFromCenterMult>
+			<PenaltyFromCenterMult>0.1</PenaltyFromCenterMult>
 			<PenatlyPerDistanceUnitFromHomeBase>1</PenatlyPerDistanceUnitFromHomeBase>
 			<ThresholdTakenRadiusForTradeGates>30</ThresholdTakenRadiusForTradeGates>
 		</BasicValues>
