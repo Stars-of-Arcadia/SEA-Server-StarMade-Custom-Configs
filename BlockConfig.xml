@@ -19,7 +19,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreyhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -77,7 +77,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreyhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -134,7 +134,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreyhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -191,7 +191,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreyhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -248,7 +248,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreyhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -303,7 +303,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreyhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -359,7 +359,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreyhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -415,7 +415,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreyhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -477,7 +477,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -537,7 +537,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -596,7 +596,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -655,7 +655,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -714,7 +714,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -769,7 +769,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -825,7 +825,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -881,7 +881,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -943,7 +943,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1003,7 +1003,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1062,7 +1062,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1121,7 +1121,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1180,7 +1180,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1235,7 +1235,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1291,7 +1291,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1347,7 +1347,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreyarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1410,7 +1410,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicwhitehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1468,7 +1468,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicwhitehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1525,7 +1525,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicwhitehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1582,7 +1582,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicwhitehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1639,7 +1639,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicwhitehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1694,7 +1694,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicwhitehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1750,7 +1750,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicwhitehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1806,7 +1806,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicwhitehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1868,7 +1868,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1928,7 +1928,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -1987,7 +1987,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2046,7 +2046,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2105,7 +2105,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2160,7 +2160,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2216,7 +2216,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2272,7 +2272,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2334,7 +2334,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2394,7 +2394,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2453,7 +2453,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2512,7 +2512,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2571,7 +2571,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2626,7 +2626,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2682,7 +2682,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2738,7 +2738,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedwhitearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -2800,7 +2800,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>whitecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -2858,7 +2858,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>whitecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -2915,7 +2915,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>whitecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -2972,7 +2972,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>whitecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -3029,7 +3029,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>whitecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -3084,7 +3084,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>whitecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -3140,7 +3140,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>whitecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -3196,7 +3196,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>whitecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -3259,7 +3259,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdarkgrey</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3317,7 +3317,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdarkgrey</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3374,7 +3374,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdarkgrey</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3431,7 +3431,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdarkgrey</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3488,7 +3488,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdarkgrey</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3543,7 +3543,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdarkgrey</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3599,7 +3599,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdarkgrey</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3655,7 +3655,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdarkgrey</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3717,7 +3717,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreystandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3775,7 +3775,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreystandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3832,7 +3832,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreystandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3889,7 +3889,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreystandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -3946,7 +3946,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreystandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4001,7 +4001,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreystandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4057,7 +4057,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreystandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4113,7 +4113,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreystandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4175,7 +4175,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreyadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4233,7 +4233,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreyadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4290,7 +4290,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreyadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4347,7 +4347,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreyadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4404,7 +4404,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreyadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4459,7 +4459,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreyadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4515,7 +4515,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreyadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4571,7 +4571,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>darkgreyadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4634,7 +4634,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicblackhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4692,7 +4692,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicblackhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4749,7 +4749,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicblackhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4806,7 +4806,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicblackhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4863,7 +4863,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicblackhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4918,7 +4918,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicblackhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -4974,7 +4974,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicblackhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5030,7 +5030,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicblackhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5092,7 +5092,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5152,7 +5152,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5211,7 +5211,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5270,7 +5270,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5329,7 +5329,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5384,7 +5384,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5440,7 +5440,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5496,7 +5496,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5558,7 +5558,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5618,7 +5618,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5677,7 +5677,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5736,7 +5736,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5795,7 +5795,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5850,7 +5850,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5906,7 +5906,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -5962,7 +5962,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedblackarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6024,7 +6024,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blackcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -6082,7 +6082,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blackcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -6139,7 +6139,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blackcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -6196,7 +6196,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blackcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -6253,7 +6253,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blackcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -6308,7 +6308,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blackcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -6364,7 +6364,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blackcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -6420,7 +6420,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blackcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -6483,7 +6483,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicyellowhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6541,7 +6541,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicyellowhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6598,7 +6598,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicyellowhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6655,7 +6655,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicyellowhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6712,7 +6712,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicyellowhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6767,7 +6767,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicyellowhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6823,7 +6823,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicyellowhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6879,7 +6879,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicyellowhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -6941,7 +6941,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7001,7 +7001,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7060,7 +7060,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7119,7 +7119,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7178,7 +7178,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7233,7 +7233,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7289,7 +7289,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7345,7 +7345,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7407,7 +7407,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7467,7 +7467,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7526,7 +7526,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7585,7 +7585,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7644,7 +7644,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7699,7 +7699,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7755,7 +7755,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7811,7 +7811,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedyellowarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -7873,7 +7873,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -7931,7 +7931,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -7988,7 +7988,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -8045,7 +8045,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -8102,7 +8102,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -8157,7 +8157,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -8213,7 +8213,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -8269,7 +8269,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -8332,7 +8332,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicorangehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8390,7 +8390,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicorangehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8447,7 +8447,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicorangehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8504,7 +8504,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicorangehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8561,7 +8561,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicorangehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8616,7 +8616,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicorangehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8672,7 +8672,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicorangehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8728,7 +8728,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicorangehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8790,7 +8790,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8850,7 +8850,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8909,7 +8909,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -8968,7 +8968,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9027,7 +9027,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9082,7 +9082,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9138,7 +9138,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9194,7 +9194,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9256,7 +9256,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9316,7 +9316,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9375,7 +9375,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9434,7 +9434,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9493,7 +9493,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9548,7 +9548,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9604,7 +9604,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9660,7 +9660,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedorangearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -9722,7 +9722,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>orangecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -9780,7 +9780,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>orangecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -9837,7 +9837,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>orangecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -9894,7 +9894,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>orangecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -9951,7 +9951,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>orangecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -10006,7 +10006,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>orangecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -10062,7 +10062,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>orangecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -10118,7 +10118,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>orangecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -10181,7 +10181,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicredhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10239,7 +10239,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicredhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10296,7 +10296,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicredhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10353,7 +10353,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicredhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10410,7 +10410,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicredhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10465,7 +10465,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicredhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10521,7 +10521,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicredhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10577,7 +10577,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicredhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10639,7 +10639,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10699,7 +10699,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10758,7 +10758,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10817,7 +10817,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10876,7 +10876,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10931,7 +10931,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -10987,7 +10987,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11043,7 +11043,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11105,7 +11105,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11165,7 +11165,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11224,7 +11224,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11283,7 +11283,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11342,7 +11342,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11397,7 +11397,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11453,7 +11453,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11509,7 +11509,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedredarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -11571,7 +11571,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>redcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -11629,7 +11629,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>redcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -11686,7 +11686,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>redcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -11743,7 +11743,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>redcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -11800,7 +11800,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>redcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -11855,7 +11855,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>redcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -11911,7 +11911,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>redcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -11967,7 +11967,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>redcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -12030,7 +12030,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicpurplehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12088,7 +12088,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicpurplehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12145,7 +12145,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicpurplehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12202,7 +12202,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicpurplehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12259,7 +12259,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicpurplehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12314,7 +12314,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicpurplehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12370,7 +12370,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicpurplehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12426,7 +12426,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicpurplehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12488,7 +12488,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12548,7 +12548,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12607,7 +12607,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12666,7 +12666,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12725,7 +12725,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12780,7 +12780,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12836,7 +12836,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12892,7 +12892,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -12954,7 +12954,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13014,7 +13014,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13073,7 +13073,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13132,7 +13132,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13191,7 +13191,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13246,7 +13246,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13302,7 +13302,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13358,7 +13358,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedpurplearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13420,7 +13420,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>purplecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -13478,7 +13478,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>purplecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -13535,7 +13535,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>purplecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -13592,7 +13592,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>purplecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -13649,7 +13649,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>purplecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -13704,7 +13704,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>purplecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -13760,7 +13760,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>purplecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -13816,7 +13816,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>purplecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -13879,7 +13879,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbluehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13937,7 +13937,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbluehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -13994,7 +13994,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbluehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14051,7 +14051,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbluehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14108,7 +14108,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbluehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14163,7 +14163,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbluehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14219,7 +14219,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbluehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14275,7 +14275,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbluehull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14337,7 +14337,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14397,7 +14397,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14456,7 +14456,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14515,7 +14515,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14574,7 +14574,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14629,7 +14629,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14685,7 +14685,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14741,7 +14741,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14803,7 +14803,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14863,7 +14863,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14922,7 +14922,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -14981,7 +14981,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15040,7 +15040,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15095,7 +15095,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15151,7 +15151,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15207,7 +15207,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbluearmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15269,7 +15269,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>bluecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -15327,7 +15327,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>bluecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -15384,7 +15384,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>bluecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -15441,7 +15441,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>bluecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -15498,7 +15498,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>bluecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -15553,7 +15553,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>bluecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -15609,7 +15609,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>bluecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -15665,7 +15665,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>bluecrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -15728,7 +15728,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealbasic</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15786,7 +15786,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealbasic</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15843,7 +15843,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealbasic</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15900,7 +15900,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealbasic</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -15957,7 +15957,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealbasic</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16012,7 +16012,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealbasic</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16068,7 +16068,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealbasic</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16124,7 +16124,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealbasic</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16186,7 +16186,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealstandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16244,7 +16244,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealstandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16301,7 +16301,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealstandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16358,7 +16358,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealstandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16415,7 +16415,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealstandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16470,7 +16470,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealstandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16526,7 +16526,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealstandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16582,7 +16582,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealstandard</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16644,7 +16644,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16702,7 +16702,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16759,7 +16759,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16816,7 +16816,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16873,7 +16873,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16928,7 +16928,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -16984,7 +16984,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17040,7 +17040,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealadvanced</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17102,7 +17102,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -17158,7 +17158,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -17213,7 +17213,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -17268,7 +17268,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -17323,7 +17323,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -17378,7 +17378,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -17434,7 +17434,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -17490,7 +17490,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>tealcrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -17553,7 +17553,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreenhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17611,7 +17611,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreenhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17668,7 +17668,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreenhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17725,7 +17725,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreenhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17782,7 +17782,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreenhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17837,7 +17837,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreenhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17893,7 +17893,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreenhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -17949,7 +17949,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicgreenhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18011,7 +18011,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18071,7 +18071,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18130,7 +18130,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18189,7 +18189,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18248,7 +18248,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18303,7 +18303,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18359,7 +18359,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18415,7 +18415,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18477,7 +18477,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18537,7 +18537,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18596,7 +18596,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18655,7 +18655,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18714,7 +18714,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18769,7 +18769,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18825,7 +18825,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18881,7 +18881,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedgreenarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -18943,7 +18943,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greencrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -19001,7 +19001,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greencrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -19058,7 +19058,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greencrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -19115,7 +19115,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greencrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -19172,7 +19172,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greencrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -19227,7 +19227,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greencrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -19283,7 +19283,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greencrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -19339,7 +19339,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greencrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -19402,7 +19402,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbrownhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19460,7 +19460,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbrownhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19517,7 +19517,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbrownhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19574,7 +19574,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbrownhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19631,7 +19631,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbrownhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19686,7 +19686,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbrownhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19742,7 +19742,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbrownhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19798,7 +19798,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicbrownhull</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19860,7 +19860,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19920,7 +19920,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -19979,7 +19979,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20038,7 +20038,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20097,7 +20097,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20152,7 +20152,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20208,7 +20208,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20264,7 +20264,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>standardbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20326,7 +20326,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20386,7 +20386,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20445,7 +20445,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20504,7 +20504,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20563,7 +20563,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20618,7 +20618,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20674,7 +20674,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20730,7 +20730,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>advancedbrownarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -20792,7 +20792,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>browncrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -20853,7 +20853,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>browncrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -20913,7 +20913,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>browncrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -20973,7 +20973,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>browncrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21033,7 +21033,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>browncrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21088,7 +21088,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>browncrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21144,7 +21144,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>browncrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21200,7 +21200,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>browncrystalarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>10000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21263,7 +21263,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicglass</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21324,7 +21324,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicglass</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21384,7 +21384,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicglass</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21444,7 +21444,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicglass</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21504,7 +21504,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicglass</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21560,7 +21560,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicglass</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21617,7 +21617,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicglass</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21674,7 +21674,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicglass</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>500</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -21739,7 +21739,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>50</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -21802,7 +21802,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>railtrack</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>50</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -21859,7 +21859,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>railtrack</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>50</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -21922,7 +21922,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>railtrack</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>50</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -21985,7 +21985,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>railtrack</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>50</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -22045,7 +22045,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>50</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -22165,7 +22165,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>50</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -24438,7 +24438,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -24496,7 +24496,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -24668,7 +24668,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blastdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -24726,7 +24726,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blastdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -24783,7 +24783,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>red force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -24841,7 +24841,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>red force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -24898,7 +24898,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blue force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -24956,7 +24956,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blue force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25013,7 +25013,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellow force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25071,7 +25071,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellow force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25126,7 +25126,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -25182,7 +25182,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -25238,7 +25238,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>basicdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -25462,7 +25462,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blastdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -25518,7 +25518,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blastdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -25574,7 +25574,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blastdoor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -25630,7 +25630,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>red force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25686,7 +25686,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>red force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25742,7 +25742,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>red force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25798,7 +25798,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blue force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25854,7 +25854,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blue force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25910,7 +25910,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>blue force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -25966,7 +25966,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellow force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -26022,7 +26022,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellow force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -26078,7 +26078,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellow force field</InventoryGroup>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>0</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -26259,7 +26259,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greenhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26317,7 +26317,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greenhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26374,7 +26374,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greenhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26431,7 +26431,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greenhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26488,7 +26488,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greenhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26547,7 +26547,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26605,7 +26605,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26662,7 +26662,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26719,7 +26719,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26776,7 +26776,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26831,7 +26831,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greenhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26887,7 +26887,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greenhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26943,7 +26943,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>greenhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -26999,7 +26999,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -27055,7 +27055,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -27111,7 +27111,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>yellowhazardarmor</InventoryGroup>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>1000</ArmorHPContribution>
 <StructureHPContribution>5</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31117,7 +31117,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decopanel</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31174,7 +31174,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decopanel</InventoryGroup>
 <Animated>true</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31231,7 +31231,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decopanel</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31288,7 +31288,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decopanel</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31344,7 +31344,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>true</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31400,7 +31400,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>true</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31457,7 +31457,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>alloyedmesh</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -31514,7 +31514,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>metalgrill</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -31571,7 +31571,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>metalgrill</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -31628,7 +31628,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>scaffold</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -31685,7 +31685,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>scaffold</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>true</Transparency>
@@ -31742,7 +31742,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decoscreen</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31799,7 +31799,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decoscreen</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31856,7 +31856,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decoscreen</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31913,7 +31913,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decoscreen</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -31970,7 +31970,7 @@
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <InventoryGroup>decoscreen</InventoryGroup>
 <Animated>false</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -32026,7 +32026,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>true</Animated>
-<Armour>60.0</Armour>
+<Armour>20.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -32400,7 +32400,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>150</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -35858,7 +35858,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>true</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>100</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -36093,7 +36093,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>1000</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -36151,7 +36151,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>false</Animated>
-<Armour>99.0</Armour>
+<Armour>75.0</Armour>
 <ArmorHPContribution>0</ArmorHPContribution>
 <StructureHPContribution>75</StructureHPContribution>
 <Transparency>false</Transparency>
@@ -46392,7 +46392,7 @@
 <BasicResourceFactory>0</BasicResourceFactory>
 <FactoryBakeTime>5.0</FactoryBakeTime>
 <Animated>false</Animated>
-<Armour>90.0</Armour>
+<Armour>50.0</Armour>
 <ArmorHPContribution>100</ArmorHPContribution>
 <StructureHPContribution>100</StructureHPContribution>
 <Transparency>false</Transparency>
