@@ -56,7 +56,7 @@
  						
  						<ArmorHpDamageThreshold>1.0</ArmorHpDamageThreshold> <!-- absorbedDamageToArmorHP = (ArmorHpDamageThreshold * [armorhp of the block]) * [current ArmorHp Left On Ship]; Note: this is not used as long as ArmorHpAbsorbtion != 0; This means, a ship wont take damage other than armorHP damage as long as a single shot isn't above the trheshold; -->
 
-						<AITurretMinOrientationSpeed>0.25</AITurretMinOrientationSpeed> <!-- Minimum turret orientation speed by mass used by AI (still depends on enhancer) -->
+						<AITurretMinOrientationSpeed>0.5</AITurretMinOrientationSpeed> <!-- Minimum turret orientation speed by mass used by AI (still depends on enhancer) -->
  						<AITurretMaxOrientationSpeed>5.5</AITurretMaxOrientationSpeed> <!-- Maximum turret orientation speed by mass used by AI (still depends on enhancer) -->
  						<AITurretOrientationSpeedDivByMass>50.0</AITurretOrientationSpeedDivByMass> <!-- speed = AITurretOrientationSpeedDivByMass / mass -->
 
