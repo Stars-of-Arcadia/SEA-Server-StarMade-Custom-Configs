@@ -89,6 +89,7 @@ $rec_per_block_list_string =~ s/, $//;
 
 my $html = <<EOT;
 	<script src="Chart.min.js"></script>
+	<h1>S.E.A. Live Config Extrapolation Graphing</h1>
 	<h2>Shield Capacity</h2>
 	<canvas id="ShieldCapacity" width="400" height="400"></canvas>
 	<h2>Shield Recharge</h2>
@@ -142,7 +143,7 @@ my $html = <<EOT;
 			legendTemplate : "<ul class='<%=name.toLowerCase()%>-legend'><% for (var i=0; i<datasets.length; i++){%><li><span style='background-color:<%=datasets[i].strokeColor%>'></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
 		};
 
-		var data = {
+		var shield_cap_data = {
 			labels: ["10^0", "10^1", "10^2", "10^3", "10^4", "10^5", "10^6"],
 			datasets: [
 				{
@@ -158,7 +159,7 @@ my $html = <<EOT;
 			]
 		};
 
-		var data2 = {
+		var shield_rec_data = {
 			labels: ["10^0", "10^1", "10^2", "10^3", "10^4", "10^5", "10^6"],
 			datasets: [
 				{
@@ -174,10 +175,11 @@ my $html = <<EOT;
 			]
 		};
 
-		var ctx = document.getElementById("ShieldCapacity").getContext("2d");
-		var ctx2 = document.getElementById("ShieldRecharge").getContext("2d");
-		var myLineChart = new Chart(ctx).Line(data,options);
-		var myLineChart2 = new Chart(ctx2).Line(data2,options);
+		var shield_cap = document.getElementById("ShieldCapacity").getContext("2d");
+		var shield_rec = document.getElementById("ShieldRecharge").getContext("2d");
+
+		var SCapLineChart = new Chart(shield_cap).Line(shield_cap_data, options);
+		var SRecLineChart2 = new Chart(shield_rec).Line(shield_rec_data, options);
 
 	</script>
 EOT
