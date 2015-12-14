@@ -691,27 +691,27 @@
                                 <Speed style="buff" value="3" />
                                 <Split style="skip"  />
                                 <Mode style="set" value="1"/><!-- Heat Seeker Missile -->
-                                <PowerConsumption style="skip"  />
+                                <PowerConsumption style="skip" linear="true" />
                         </Missile>
                         <Beam>
                                 <Damage style="nerf" value="10" linear="true" />
-                                <Reload style="nerf" linear="true" value="10" />
+                                <Reload style="nerf" linear="false" value="10" />
                                 <Distance style="buff" value="4" />
                                 <BlastRadius style="nerf" value="4" />
                                 <Speed style="buff" value="5" />
                                 <Split style="skip" />
                                 <Mode style="set" value="2" /><!-- Smart Missile -->
-                                <PowerConsumption style="skip"  />
+                                <PowerConsumption style="nerf" value="12" linear="true" />
                         </Beam>
                         <Pulse>
                                 <Damage style="nerf" linear="true" value="2.5" />
-                                <Reload style="nerf" linear="true" value="2.5" />
+                                <Reload style="nerf" linear="false" value="2.5" />
                                 <Distance style="buff" value="2" />
                                 <BlastRadius style="nerf" value="12" />
                                 <Speed style="buff" value="2" />
                                 <Split style="buff" value="29" />
                                 <Mode style="set" value="2" /><!-- Smart Missile -->
-                                <PowerConsumption style="skip"  />
+                                <PowerConsumption style="nerf" value="12" linear="true" />
                         </Pulse>
                 </Combination>
         </DumbMissile>

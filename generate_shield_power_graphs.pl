@@ -123,15 +123,15 @@ my $html = <<EOT;
 	<h1>S.E.A. Live Config Extrapolation Graphing</h1>
 	<table>
 		<tr>
-			<th><h2>Shield Capacitance</h2></th>
-			<th><h2>Shield Recharge</h2></th>
+			<th><h2>Per Block Shield Capacitance</h2></th>
+			<th><h2>Per Block Shield Recharge</h2></th>
 		</tr>
 		<tr>
 			<td><canvas id="ShieldCapacity" width="600" height="400"></canvas></td>
 			<td><canvas id="ShieldRecharge" width="600" height="400"></canvas></td>
 		</tr>
 		<tr>
-			<th><h2>Power Capacitance</h2></th>
+			<th><h2>Per Block Power Capacitance</h2></th>
 		</tr>
 		<tr>
 			<td><canvas id="PowerCapacity" width="600" height="400"></canvas></td>
