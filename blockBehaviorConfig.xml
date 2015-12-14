@@ -681,7 +681,7 @@
                                 <Speed style="buff" value="6"/>
                                 <Split style="skip" />
                                 <Mode style="set" value="0"/> <!-- Dumb Missile -->
-                                <PowerConsumption style="nerf" value="1.5" linear="true" />
+                                <PowerConsumption style="nerf" value="10" linear="true" />
                         </Cannon>
                         <Missile>
                                 <Damage style="nerf" value="10" linear="true" />
@@ -695,7 +695,7 @@
                         </Missile>
                         <Beam>
                                 <Damage style="nerf" value="10" linear="true" />
-                                <Reload style="nerf" inverse="true" value="10" />
+                                <Reload style="buff" inverse="true" value="10" />
                                 <Distance style="buff" value="4" />
                                 <BlastRadius style="nerf" value="4" />
                                 <Speed style="buff" value="5" />
@@ -705,7 +705,7 @@
                         </Beam>
                         <Pulse>
                                 <Damage style="nerf" linear="true" value="2.5" />
-                                <Reload style="nerf" inverse="true" value="2.5" />
+                                <Reload style="buff" inverse="true" value="2.5" />
                                 <Distance style="buff" value="2" />
                                 <BlastRadius style="nerf" value="12" />
                                 <Speed style="buff" value="2" />

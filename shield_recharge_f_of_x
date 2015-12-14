@@ -1,0 +1,28 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+# shieldRecharge = ((totalUnitShieldRecharge*ShieldRechargePreMul)^ShieldRechargePow)*ShieldRechargeTotalMul 
+
+die "Usage: $0 units recharge_pre_mult recharge_exponent recharge_tot_mult\n"
+unless ( @ARGV == 4 );
+
+my ($units, $recharge_pre_mult, $recharge_exponent, $recharge_tot_mult) = @ARGV;
+my ($total_recharge,$cap_per_block);
+
+my $single_total_recharge = (( 1 * $recharge_pre_mult ) ** $recharge_exponent ) * $recharge_tot_mult;
+my $single_cap_per_block = ($single_total_recharge / 1);
+
+printf("%-10s  %10s  %15s  %10s  %10s\n", "Units", "Rec/Block", "TotalRec", "TotalRec DR %", "Rec/Block DR %");
+
+for ( my $i = 1; $i <= $units; $i*=10 ) {
+	last if ( $i > $units );
+
+	$total_recharge = (( $i * $recharge_pre_mult ) ** $recharge_exponent ) * $recharge_tot_mult;
+	$cap_per_block = $total_recharge / $i;
+
+	my $total_cap_dr_ratio = ($total_recharge / ($single_total_recharge * $i) ) * 100;
+	my $cap_per_block_dr_ratio = ($cap_per_block / $single_cap_per_block) * 100;
+
+	printf("%-10s  %10.2f  %15.2f  %10.2f  %10.2f\n", $i, $cap_per_block, $total_recharge, $total_cap_dr_ratio, $cap_per_block_dr_ratio);
+}

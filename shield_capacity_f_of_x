@@ -1,0 +1,28 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+# shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul 
+
+die "Usage: $0 units capacity_pre_mult capacity_exponent capacity_tot_mult\n"
+unless ( @ARGV == 4 );
+
+my ($units, $capacity_pre_mult, $capacity_exponent, $capacity_tot_mult) = @ARGV;
+my ($total_capacity,$cap_per_block);
+
+my $single_total_capacity = (( 1 * $capacity_pre_mult ) ** $capacity_exponent ) * $capacity_tot_mult;
+my $single_cap_per_block = ($single_total_capacity / 1);
+
+printf("%-10s  %10s  %15s  %10s  %10s\n", "Units", "Cap/Block", "TotalCap", "TotalCap DR %", "Cap/Block DR %");
+
+for ( my $i = 1; $i <= $units; $i*=10 ) {
+	last if ( $i > $units );
+
+	$total_capacity = (( $i * $capacity_pre_mult ) ** $capacity_exponent ) * $capacity_tot_mult;
+	$cap_per_block = $total_capacity / $i;
+
+	my $total_cap_dr_ratio = ($total_capacity / ($single_total_capacity * $i) ) * 100;
+	my $cap_per_block_dr_ratio = ($cap_per_block / $single_cap_per_block) * 100;
+
+	printf("%-10s  %10.2f  %15.2f  %10.2f  %10.2f\n", $i, $cap_per_block, $total_capacity, $total_cap_dr_ratio, $cap_per_block_dr_ratio);
+}
