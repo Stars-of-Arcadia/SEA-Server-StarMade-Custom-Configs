@@ -261,8 +261,8 @@
         </Explosive>
         <Cargo>
 			<BasicValues>
-				<CapacityPerBlocMult>100.0</CapacityPerBlocMult>  <!-- simple capacity per block added -->
-	        	<CapacityPerGroupQuadratic>2.35</CapacityPerGroupQuadratic> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
+				<CapacityPerBlocMult>50118.0</CapacityPerBlocMult>  <!-- simple capacity per block added -->
+	        	<CapacityPerGroupQuadratic>1</CapacityPerGroupQuadratic> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
 				<PercentageBledPerMinute>0.01</PercentageBledPerMinute> <!-- how much inventory is lost per minute if over capacity (must be between [0, 1]) -->
 				
 				<InventoryBaseCapacity>100</InventoryBaseCapacity> <!-- base capacity for all block based inventories -->
@@ -695,7 +695,7 @@
                         </Missile>
                         <Beam>
                                 <Damage style="nerf" value="10" linear="true" />
-                                <Reload style="buff" inverse="true" value="10" />
+                                <Reload style="buff" inverse="false" value="10" />
                                 <Distance style="buff" value="4" />
                                 <BlastRadius style="nerf" value="4" />
                                 <Speed style="buff" value="5" />
@@ -705,7 +705,7 @@
                         </Beam>
                         <Pulse>
                                 <Damage style="nerf" linear="true" value="2.5" />
-                                <Reload style="buff" inverse="true" value="2.5" />
+                                <Reload style="buff" inverse="false" value="2.5" />
                                 <Distance style="buff" value="2" />
                                 <BlastRadius style="nerf" value="12" />
                                 <Speed style="buff" value="2" />

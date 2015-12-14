@@ -34,9 +34,11 @@ my $ref = $xs->XMLin($block_behavior_config, KeyAttr => { server => 'name' }, Fo
 
 # shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul 
 # shieldRecharge = ((totalUnitShieldRecharge*ShieldRechargePreMul)^ShieldRechargePow)*ShieldRechargeTotalMul 
+# powerCap = PowerBaseCapacity + ((Total_Units ^ PowerTankCapacityPow) * PowerTankCapacityLinear)
 
-my $cap_units = 1000000;
-my $recharge_units = 1000000;
+my $cap_units		= 1000000;
+my $recharge_units	= 1000000;
+my $pow_cap_units	= 1000000;
 
 my $capacity_pre_mult = $ref->{'General'}->{'BasicValues'}->{'ShieldCapacityPreMul'};
 my $capacity_exponent = $ref->{'General'}->{'BasicValues'}->{'ShieldCapacityPow'};
@@ -46,10 +48,15 @@ my $recharge_pre_mult = $ref->{'General'}{'BasicValues'}{'ShieldRechargePreMul'}
 my $recharge_exponent = $ref->{'General'}{'BasicValues'}{'ShieldRechargePow'};
 my $recharge_tot_mult = $ref->{'General'}{'BasicValues'}{'ShieldRechargeTotalMul'};
 
+my $pow_capacity_base_add = $ref->{'General'}->{'BasicValues'}->{'PowerBaseCapacity'};
+my $pow_capacity_exponent = $ref->{'General'}->{'BasicValues'}->{'PowerTankCapacityPow'};
+my $pow_capacity_tot_mult = $ref->{'General'}->{'BasicValues'}->{'PowerTankCapacityLinear'};
+
 my ($total_capacity,$cap_per_block);
 my ($total_recharge,$rec_per_block);
+my ($total_power_capacity,$pow_cap_per_block);
 
-my (@cap_per_block_list, @rec_per_block_list);
+my (@cap_per_block_list, @rec_per_block_list, @pow_cap_per_block_list);
 
 my $single_total_capacity = (( 1 * $capacity_pre_mult ) ** $capacity_exponent ) * $capacity_tot_mult;
 my $single_cap_per_block = ($single_total_capacity / 1);
@@ -82,18 +89,54 @@ for ( my $i = 1; $i <= $recharge_units; $i*=10 ) {
 	#printf("%-10s  %10.2f  %15.2f  %10.2f  %10.2f\n", $i, $rec_per_block, $total_recharge, $total_rec_dr_ratio, $rec_per_block_dr_ratio);
 }
 
+for ( my $i = 1; $i <= $pow_cap_units; $i*=10 ) {
+	last if ( $i > $pow_cap_units );
+
+	$total_power_capacity = (( $i ** $pow_capacity_exponent ) * $pow_capacity_tot_mult);
+	$pow_cap_per_block = $total_power_capacity / $i;
+
+	push(@pow_cap_per_block_list, $pow_cap_per_block);
+
+	#my $total_rec_dr_ratio = ($total_recharge / ($single_total_recharge * $i) ) * 100;
+	#my $rec_per_block_dr_ratio = ($rec_per_block / $single_rec_per_block) * 100;
+	#printf("%-10s  %10.2f  %15.2f  %10.2f  %10.2f\n", $i, $rec_per_block, $total_recharge, $total_rec_dr_ratio, $rec_per_block_dr_ratio);
+}
+
 my $cap_per_block_list_string = join ', ', @cap_per_block_list;
 $cap_per_block_list_string =~ s/, $//;
 my $rec_per_block_list_string = join ', ', @rec_per_block_list;
 $rec_per_block_list_string =~ s/, $//;
+my $pow_cap_per_block_list_string = join ', ', @pow_cap_per_block_list;
+$pow_cap_per_block_list_string =~ s/, $//;
 
 my $html = <<EOT;
+	<style>
+		h1,h2 {
+			font-family: Arial;
+			color: #666;
+		}
+		table,td {
+			padding: 5px;
+		}
+	</style>
 	<script src="Chart.min.js"></script>
 	<h1>S.E.A. Live Config Extrapolation Graphing</h1>
-	<h2>Shield Capacity</h2>
-	<canvas id="ShieldCapacity" width="400" height="400"></canvas>
-	<h2>Shield Recharge</h2>
-	<canvas id="ShieldRecharge" width="400" height="400"></canvas>
+	<table>
+		<tr>
+			<th><h2>Shield Capacitance</h2></th>
+			<th><h2>Shield Recharge</h2></th>
+		</tr>
+		<tr>
+			<td><canvas id="ShieldCapacity" width="600" height="400"></canvas></td>
+			<td><canvas id="ShieldRecharge" width="600" height="400"></canvas></td>
+		</tr>
+		<tr>
+			<th><h2>Power Capacitance</h2></th>
+		</tr>
+		<tr>
+			<td><canvas id="PowerCapacity" width="600" height="400"></canvas></td>
+		</tr>
+	</table>
 
 	<script type='text/javascript'>
 		var options = {
@@ -148,9 +191,9 @@ my $html = <<EOT;
 			datasets: [
 				{
 					label: "Shield Capacity",
-					fillColor: "rgba(220,220,220,0.2)",
-					strokeColor: "rgba(220,220,220,1)",
-					pointColor: "rgba(220,220,220,1)",
+					fillColor: "rgba(151,187,205,0.2)",
+					strokeColor: "rgba(151,187,205,1)",
+					pointColor: "rgba(151,187,205,1)",
 					pointStrokeColor: "#fff",
 					pointHighlightFill: "#fff",
 					pointHighlightStroke: "rgba(220,220,220,1)",
@@ -175,11 +218,29 @@ my $html = <<EOT;
 			]
 		};
 
+		var power_cap_data = {
+			labels: ["10^0", "10^1", "10^2", "10^3", "10^4", "10^5", "10^6"],
+			datasets: [
+				{
+					label: "Power Capacity",
+					fillColor: "rgba(151, 205, 187, 0.2)",
+					strokeColor: "rgba(151, 205, 187,1)",
+					pointColor: "rgba(151, 205, 187, 1)",
+					pointStrokeColor: "#fff",
+					pointHighlightFill: "#fff",
+					pointHighlightStroke: "rgba(151, 205, 187, 1)",
+					data: [ $pow_cap_per_block_list_string ]
+				}
+			]
+		};
+
 		var shield_cap = document.getElementById("ShieldCapacity").getContext("2d");
 		var shield_rec = document.getElementById("ShieldRecharge").getContext("2d");
+		var power_cap = document.getElementById("PowerCapacity").getContext("2d");
 
 		var SCapLineChart = new Chart(shield_cap).Line(shield_cap_data, options);
-		var SRecLineChart2 = new Chart(shield_rec).Line(shield_rec_data, options);
+		var SRecLineChart = new Chart(shield_rec).Line(shield_rec_data, options);
+		var PCapLineChart = new Chart(power_cap).Line(power_cap_data, options);
 
 	</script>
 EOT
