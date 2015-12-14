@@ -146,10 +146,10 @@
         </General>
         <Thruster>
                 <BasicValues>
-                        <MulTotalThrust>2</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <PowTotalThrust>0.87</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <MulTotalThrust>3</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <PowTotalThrust>0.834979</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <ThrustPowerConsuptionPerBlock>10</ThrustPowerConsuptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->      
-                        <PowPerThrustCollection>1</PowPerThrustCollection>
+                        <PowPerThrustCollection>0</PowPerThrustCollection>
                         <UnitCalcStyle>LINEAR</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
                         <UnitCalcMult>2.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
                 </BasicValues>
@@ -695,7 +695,7 @@
                         </Missile>
                         <Beam>
                                 <Damage style="nerf" value="10" linear="true" />
-                                <Reload style="buff" inverse="false" value="10" />
+                                <Reload style="nerf" linear="true" value="10" />
                                 <Distance style="buff" value="4" />
                                 <BlastRadius style="nerf" value="4" />
                                 <Speed style="buff" value="5" />
@@ -705,7 +705,7 @@
                         </Beam>
                         <Pulse>
                                 <Damage style="nerf" linear="true" value="2.5" />
-                                <Reload style="buff" inverse="false" value="2.5" />
+                                <Reload style="nerf" linear="true" value="2.5" />
                                 <Distance style="buff" value="2" />
                                 <BlastRadius style="nerf" value="12" />
                                 <Speed style="buff" value="2" />
