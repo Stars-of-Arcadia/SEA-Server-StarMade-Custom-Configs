@@ -69,7 +69,7 @@ for ( my $i = 1; $i <= $cap_units; $i*=10 ) {
 	$total_capacity = (( $i * $capacity_pre_mult ) ** $capacity_exponent ) * $capacity_tot_mult;
 	$cap_per_block = $total_capacity / $i;
 
-	push(@cap_per_block_list, $cap_per_block);
+	push(@cap_per_block_list, sprintf("%0.2f", $cap_per_block));
 
 	#my $total_cap_dr_ratio = ($total_capacity / ($single_total_capacity * $i) ) * 100;
 	#my $cap_per_block_dr_ratio = ($cap_per_block / $single_cap_per_block) * 100;
@@ -82,7 +82,7 @@ for ( my $i = 1; $i <= $recharge_units; $i*=10 ) {
 	$total_recharge = (( $i * $recharge_pre_mult ) ** $recharge_exponent ) * $recharge_tot_mult;
 	$rec_per_block = $total_recharge / $i;
 
-	push(@rec_per_block_list, $rec_per_block);
+	push(@rec_per_block_list, sprintf("%0.2f", $rec_per_block));
 
 	#my $total_rec_dr_ratio = ($total_recharge / ($single_total_recharge * $i) ) * 100;
 	#my $rec_per_block_dr_ratio = ($rec_per_block / $single_rec_per_block) * 100;
@@ -95,7 +95,7 @@ for ( my $i = 1; $i <= $pow_cap_units; $i*=10 ) {
 	$total_power_capacity = (( $i ** $pow_capacity_exponent ) * $pow_capacity_tot_mult);
 	$pow_cap_per_block = $total_power_capacity / $i;
 
-	push(@pow_cap_per_block_list, $pow_cap_per_block);
+	push(@pow_cap_per_block_list, sprintf("%0.2f", $pow_cap_per_block));
 
 	#my $total_rec_dr_ratio = ($total_recharge / ($single_total_recharge * $i) ) * 100;
 	#my $rec_per_block_dr_ratio = ($rec_per_block / $single_rec_per_block) * 100;
@@ -110,35 +110,80 @@ my $pow_cap_per_block_list_string = join ', ', @pow_cap_per_block_list;
 $pow_cap_per_block_list_string =~ s/, $//;
 
 my $html = <<EOT;
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<style>
-		h1,h2 {
+		body {
 			font-family: Arial;
 			color: #666;
 		}
 		table,td {
 			padding: 5px;
 		}
+		.legend {
+			position: relative;
+			left: 200px;
+			padding: 3px;
+			width: 160px;
+			background-color:#666;
+			border-radius:5px;
+			text-align:center;
+		}
 	</style>
 	<script src="Chart.min.js"></script>
 	<h1>S.E.A. Live Config Extrapolation Graphing</h1>
-	<table>
+	<table id='main'>
 		<tr>
-			<th><h2>Per Block Shield Capacitance</h2></th>
-			<th><h2>Per Block Shield Recharge</h2></th>
+			<th><h2>Power / Shield Capacitance</h2></th>
+			<th><h2>Shield Recharge</h2></th>
 		</tr>
 		<tr>
-			<td><canvas id="ShieldCapacity" width="600" height="400"></canvas></td>
-			<td><canvas id="ShieldRecharge" width="600" height="400"></canvas></td>
+			<td><canvas id="ShieldCapacity" width="600" height="500"></canvas></td>
+			<td><canvas id="ShieldRecharge" width="600" height="500"></canvas></td>
 		</tr>
 		<tr>
-			<th><h2>Per Block Power Capacitance</h2></th>
-		</tr>
-		<tr>
-			<td><canvas id="PowerCapacity" width="600" height="400"></canvas></td>
+			<td id='legend_cap'></td>
+			<td id='legend_rec'></td>
 		</tr>
 	</table>
 
 	<script type='text/javascript'>
+
+		Chart.types.Line.extend({
+			name: "LineAlt",
+			draw: function () {
+				Chart.types.Line.prototype.draw.apply(this, arguments);
+
+				var ctx = this.chart.ctx;
+				ctx.save();
+				// text alignment and color
+				ctx.textAlign = "center";
+				ctx.textBaseline = "bottom";
+				ctx.fillStyle = this.options.scaleFontColor;
+				// position
+				var x = this.scale.xScalePaddingLeft * 0.4;
+				var y = this.chart.height / 2;
+				// change origin
+				ctx.translate(x, y)
+
+				// rotate text
+				ctx.rotate(-90 * Math.PI / 180);
+				ctx.fillText(this.options.label, 0, 0);
+				ctx.restore();
+
+				/*
+				ctx.save();
+
+				x = this.chart.width / 2;
+				//y = this.scale.yPaddingBottom * 0.4;
+				y = this.chart.height - 5;
+				ctx.translate(x, y)
+				ctx.fillText(this.chart.label, 0, 0);
+				ctx.restore();
+				*/
+			}
+		});
+
 		var options = {
 			///Boolean - Whether grid lines are shown across the chart
 			scaleShowGridLines : true,
@@ -183,21 +228,40 @@ my $html = <<EOT;
 			datasetFill : true,
 
 			//String - A legend template
-			legendTemplate : "<ul class='<%=name.toLowerCase()%>-legend'><% for (var i=0; i<datasets.length; i++){%><li><span style='background-color:<%=datasets[i].strokeColor%>'></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+			legendTemplate : "<div class=legend><% for (var i=0; i<datasets.length; i++){%>"
+							+	"<span style='color:"
+							+		"<%=datasets[i].pointColor%>;font-size:12px'>"
+							+	"<%if(datasets[i].label){%>"
+							+		"<%=datasets[i].label%>"
+							+	"<%}%>"
+							+	"</span><br/>"
+							+ "<%}%></div>"
+							+"<br/><br/>",
+			scaleLabel: "          <%=value%> "
 		};
 
-		var shield_cap_data = {
+		var pow_shield_cap_data = {
 			labels: ["10^0", "10^1", "10^2", "10^3", "10^4", "10^5", "10^6"],
 			datasets: [
 				{
-					label: "Shield Capacity",
+					label: "Shield Capacity Block Units",
 					fillColor: "rgba(151,187,205,0.2)",
 					strokeColor: "rgba(151,187,205,1)",
 					pointColor: "rgba(151,187,205,1)",
 					pointStrokeColor: "#fff",
 					pointHighlightFill: "#fff",
-					pointHighlightStroke: "rgba(220,220,220,1)",
+					pointHighlightStroke: "rgba(151,187,205,1)",
 					data: [ $cap_per_block_list_string ]
+				},
+				{
+					label: "Power Capacity Block Units",
+					fillColor: "rgba(151,205,151,0.2)",
+					strokeColor: "rgba(151,205,151,1)",
+					pointColor: "rgba(151,205,151,1)",
+					pointStrokeColor: "#fff",
+					pointHighlightFill: "#fff",
+					pointHighlightStroke: "rgba(151,205,151,1)",
+					data: [ $pow_cap_per_block_list_string ]
 				}
 			]
 		};
@@ -206,7 +270,7 @@ my $html = <<EOT;
 			labels: ["10^0", "10^1", "10^2", "10^3", "10^4", "10^5", "10^6"],
 			datasets: [
 				{
-					label: "Shield Recharge",
+					label: "Shield Recharge Block Units",
 					fillColor: "rgba(151,187,205,0.2)",
 					strokeColor: "rgba(151,187,205,1)",
 					pointColor: "rgba(151,187,205,1)",
@@ -218,29 +282,23 @@ my $html = <<EOT;
 			]
 		};
 
-		var power_cap_data = {
-			labels: ["10^0", "10^1", "10^2", "10^3", "10^4", "10^5", "10^6"],
-			datasets: [
-				{
-					label: "Power Capacity",
-					fillColor: "rgba(151, 205, 187, 0.2)",
-					strokeColor: "rgba(151, 205, 187,1)",
-					pointColor: "rgba(151, 205, 187, 1)",
-					pointStrokeColor: "#fff",
-					pointHighlightFill: "#fff",
-					pointHighlightStroke: "rgba(151, 205, 187, 1)",
-					data: [ $pow_cap_per_block_list_string ]
-				}
-			]
-		};
-
-		var shield_cap = document.getElementById("ShieldCapacity").getContext("2d");
+		var pow_shield_cap = document.getElementById("ShieldCapacity").getContext("2d");
 		var shield_rec = document.getElementById("ShieldRecharge").getContext("2d");
-		var power_cap = document.getElementById("PowerCapacity").getContext("2d");
 
-		var SCapLineChart = new Chart(shield_cap).Line(shield_cap_data, options);
-		var SRecLineChart = new Chart(shield_rec).Line(shield_rec_data, options);
-		var PCapLineChart = new Chart(power_cap).Line(power_cap_data, options);
+		options['label'] = "Power / Shield Capacitance";
+		var PSCapLineChart = new Chart(pow_shield_cap).LineAlt(pow_shield_cap_data, options);
+		options['label'] = "Shield Recharge";
+		var SRecLineChart = new Chart(shield_rec).LineAlt(shield_rec_data, options);
+
+		//then you just need to generate the legend
+		//var PSCAPLegend = PSCapLineChart.generateLegend();
+		//var SRecLegend = SRecLineChart.generateLegend();
+
+		//and append it to your page somewhere
+		//\$('#legends').html(PSCAPLegend);
+		//\$('#legends').append(SRecLegend);
+		document.getElementById("legend_cap").innerHTML = PSCapLineChart.generateLegend();
+		document.getElementById("legend_rec").innerHTML = SRecLineChart.generateLegend();
 
 	</script>
 EOT
