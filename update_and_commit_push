@@ -14,6 +14,7 @@ cp GameConfig.xml $STARMADE_PATH/$GAMECONFIG_PATH
 cp StarMade-dedicated-server-linux.sh $STARMADE_PATH
 
 cp server.cfg $STARMADE_PATH/
+cp server-message.txt $STARMADE_PATH/
 
 perl -pi -e 's/SUPER_ADMIN_PASSWORD\s?=.+/SUPER_ADMIN_PASSWORD = *REDACTED*/g' server.cfg
 perl -pi -e 's/HOST_NAME_TO_ANNOUNCE_TO_SERVER_LIST\s?=.+/HOST_NAME_TO_ANNOUNCE_TO_SERVER_LIST = *REDACTED*/g' server.cfg
