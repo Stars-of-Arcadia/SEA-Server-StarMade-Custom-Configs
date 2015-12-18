@@ -10,7 +10,7 @@
                         <ShieldCapacityPreMul>0.6</ShieldCapacityPreMul>
                         <ShieldCapacityTotalMul>10000</ShieldCapacityTotalMul>   <!-- shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul -->
                         <ShieldRechargeInitial>0</ShieldRechargeInitial> <!-- initial shield recharge on ships without shieldRecharge blocks -->
-                        <ShieldRechargePow>0.92</ShieldRechargePow>   <!-- shieldCapacity = ((totalUnitShieldCapacity*1.0)^0.9)*55 -->
+                        <ShieldRechargePow>1.1333</ShieldRechargePow>   <!-- shieldCapacity = ((totalUnitShieldCapacity*1.0)^0.9)*55 -->
                         <ShieldRechargePreMul>1.0</ShieldRechargePreMul>
                         <ShieldRechargeTotalMul>10.5</ShieldRechargeTotalMul>
                         <ShieldRechargeCycleTime>0.1</ShieldRechargeCycleTime> <!-- time in secs between recharge cycles. This value is relative, so changing it won't affect the time a ship needs to fully recharge (e.g. twice as many cycles -> half as many reacharge per cycle)-->
