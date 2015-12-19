@@ -146,12 +146,23 @@
         </General>
         <Thruster>
                 <BasicValues>
-                        <MulTotalThrust>3</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <PowTotalThrust>0.834979</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <ThrustPowerConsuptionPerBlock>5</ThrustPowerConsuptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->      
-                        <PowPerThrustCollection>1</PowPerThrustCollection>
+                        <MulTotalThrust>0.75</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <PowTotalThrust>0.87</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <ThrustPowerconsumptionPerBlock>1</ThrustPowerconsumptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->      
+                        <PowPerThrustCollection>1</PowPerThrustCollection>       
                         <UnitCalcStyle>LINEAR</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
-                        <UnitCalcMult>2.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
+                        <UnitCalcMult>5.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
+                        
+                        <MinThrustMassRatio>0.0</MinThrustMassRatio> <!-- minimum thrust to mass ratio multiplied with server max speed -->
+                        <MaxThrustMassRatio>2.5</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
+                        <ThrustMassRatioMaxSpeedAddition>0.5</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
+                        <ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
+
+                        <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
+                        <IntertiaPow>0.30</IntertiaPow> <!-- additional multiplier of ratio -->
+                        
+                        <ThrustBalanceChangeApplyTimeInSecs>15.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->
+                        
                 </BasicValues>
         </Thruster>
         <Cloaking>
