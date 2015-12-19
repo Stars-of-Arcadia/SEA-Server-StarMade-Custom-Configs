@@ -122,10 +122,12 @@
 
                            <Item conditionhp="0.55">
                                <Type>CONTROL_LOSS</Type>
+                               <Amount>0.5</Amount>
                            </Item>
 						   
                            <Item conditionhp="0.5">
                                <Type>OVERHEATING</Type>
+                               <Amount>0.5</Amount>
                            </Item>
 						   
 						   <Item conditionhp="0.5">
