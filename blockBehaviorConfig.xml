@@ -148,7 +148,7 @@
                 <BasicValues>
                         <MulTotalThrust>0.75</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <PowTotalThrust>0.87</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <ThrustPowerconsumptionPerBlock>1</ThrustPowerconsumptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->      
+                        <ThrustPowerconsumptionPerBlock>.1</ThrustPowerconsumptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->      
                         <PowPerThrustCollection>1</PowPerThrustCollection>       
                         <UnitCalcStyle>LINEAR</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
                         <UnitCalcMult>5.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
@@ -159,9 +159,9 @@
                         <ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
 
                         <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
-                        <IntertiaPow>0.30</IntertiaPow> <!-- additional multiplier of ratio -->
+                        <IntertiaPow>0.25</IntertiaPow> <!-- additional multiplier of ratio -->
                         
-                        <ThrustBalanceChangeApplyTimeInSecs>15.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->
+                        <ThrustBalanceChangeApplyTimeInSecs>5.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->
                         
                 </BasicValues>
         </Thruster>
