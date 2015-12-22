@@ -161,7 +161,7 @@
                         <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
                         <IntertiaPow>0.30</IntertiaPow> <!-- additional multiplier of ratio -->
                         
-                        <ThrustBalanceChangeApplyTimeInSecs>15.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->
+                        <ThrustBalanceChangeApplyTimeInSecs>5.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->
                         
                 </BasicValues>
         </Thruster>
