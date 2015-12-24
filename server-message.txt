@@ -1,3 +1,50 @@
 Welcome to the Star Empire of Arcadia!
 ** NOTE: Use your StarMade nickname and VOTE for daily rewards! :)
 @ http://vote.sm.empireofarcadia.com
+
+Admin abuse is Forbidden, If you see us admin spawn stuff, it is for testing,
+and bug-hunting.
+
+Our configs are on display for public scrutiny
+WE are the ONLY server that does this :)
+
+Blow planets up before mining, please.
+
+Quick List of Server Config Changes:
+
+Owned Systems are now the only way to generate Faction Points
+you can however, buy Faction Points with Credits on a 1FP:$10k
+with  !Buy_FP <# of FP Desired>
+
+Shield Capacitator's are stronger by about 10x but feel the effects
+of the Diminishing Returns more aggressively, meaning the more shield
+blocks you have the less you get per block.
+
+Shield Rechargers are now stronger the more you have in a group,
+the same way Power Capacitors work.
+
+The mat's required for shields have switched, Caps need orange asteroids.
+
+To make any color hull, just chose and go, no more paint
+the req's are the same as Grey Hull.
+
+Lava can be placed in the Micro-assembler and made into 
+Alloyed Metal Mesh and Crystal Composite.
+
+Gold Bars can be made in the Micro-Ass. 1000000 rock = 1 gold bar.
+
+Power Capacitors are now stronger, this is to deepen power management meta.
+
+Purely decorative blocks now give huge bonuses to Structure HP,
+they represent backup/redundant systems.
+
+Asteroid specific minerals are now used in all crafting above support systems
+Tekt,Cinnabar,Varis,Dolom,Larimar,  etc...
+
+Mining bonuses/penalties for system ownership have been removed
+you now get the same amount wherever you are.
+
+Warpgates are effectively unlimited in distance.
+
+
+
