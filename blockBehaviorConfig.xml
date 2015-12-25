@@ -563,12 +563,12 @@
         </ShieldSupply>
         <RepairBeam>
                 <BasicValues>
-                		<TickRate>0.5</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
-                        <RepairPerHit>60</RepairPerHit>
-                        <PowerConsumptionPerTick>240</PowerConsumptionPerTick>
+                    <TickRate>0.25</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
+                        <RepairPerHit>100</RepairPerHit>
+                        <PowerConsumptionPerTick>50</PowerConsumptionPerTick>
                         <Distance>0.12</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
-                        <CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                        <BurstTime>2.5</BurstTime> <!-- Time the beam will fire -->
+                        <CoolDown>.5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
+                        <BurstTime>.5</BurstTime> <!-- Time the beam will fire -->
                         <InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
                 </BasicValues>
                 <Combination>
@@ -791,10 +791,10 @@
         <DamagePulse>
                 <BasicValues>
                         <Damage>200</Damage>  <!-- Uses the missile damage system, detonation point is <Radius> blocks away from output block -->
-                        <ReloadMs>10000</ReloadMs>
-                        <Radius>10</Radius>
+                        <ReloadMs>500</ReloadMs>
+                        <Radius>40</Radius>
                         <PowerConsumption>2000</PowerConsumption> <!-- deviates from 10 power/1damage formula for now, it's hard to use this weapon -->
-                        <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
+                        <AdditionalPowerConsumptionPerUnitMult>0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
                 </BasicValues>
                 <Combination>
                         <Cannon>
