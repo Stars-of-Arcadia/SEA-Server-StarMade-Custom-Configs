@@ -736,7 +736,7 @@
                 <BasicValues>
                         <DamagePerHit>5</DamagePerHit>  
                         <PowerConsumptionPerTick>50</PowerConsumptionPerTick> 
-                        <Distance>0.2</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
+                        <Distance>0.334</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
                         <TickRate>0.1</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
                         <CoolDown>15.0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
                         <BurstTime>3</BurstTime> <!-- Time the beam will fire -->
