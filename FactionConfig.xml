@@ -1,0 +1,52 @@
+<Faction>
+
+	<FactionActivity>
+		<BasicValues>
+			<SetInactiveAfterHours>48</SetInactiveAfterHours>
+			<SetActiveAfterOnlineForMin>2</SetActiveAfterOnlineForMin>
+		</BasicValues>
+	</FactionActivity>
+
+	<FactionSystemOwnerBonus>
+		<BasicValues>
+			<MiningBonusOwner>1</MiningBonusOwner>
+			<MiningBonusOthers>1</MiningBonusOthers>
+			<MiningBonusUnowned>1</MiningBonusUnowned>
+		</BasicValues>
+	</FactionSystemOwnerBonus>
+
+
+	<FactionPointGeneral>
+		<BasicValues>
+			<FactionPointDeathProtectionMinutes>10</FactionPointDeathProtectionMinutes>
+			<IncomeExpensePeriodMinutes>120</IncomeExpensePeriodMinutes>
+			<InitialFactionPoints>100</InitialFactionPoints>
+		</BasicValues>
+	</FactionPointGeneral>
+
+	<FactionPointIncome>
+		<BasicValues>
+			<GainedPerMember>0</GainedPerMember>
+			<GainedPerOnlineMember>0</GainedPerOnlineMember>
+		</BasicValues>
+	</FactionPointIncome>
+
+	<FactionPointSpending>
+		<BasicValues>
+			<BasicFlatCost>10</BasicFlatCost>
+			<SpentAbsoluteForDeath>10</SpentAbsoluteForDeath>
+			<SpentForDeathMultByMemberCount>2</SpentForDeathMultByMemberCount>
+			<SpentPerControlledSystem>-10</SpentPerControlledSystem>
+		</BasicValues>
+	</FactionPointSpending>
+
+	<FactionPointGalaxy>
+		<BasicValues>
+			<FreeHomeBase>true</FreeHomeBase>
+			<PenaltyFromCenterMult>0.5</PenaltyFromCenterMult>
+			<PenatlyPerDistanceUnitFromHomeBase>1</PenatlyPerDistanceUnitFromHomeBase>
+			<ThresholdTakenRadiusForTradeGates>30</ThresholdTakenRadiusForTradeGates>
+		</BasicValues>
+	</FactionPointGalaxy>
+
+</Faction>
