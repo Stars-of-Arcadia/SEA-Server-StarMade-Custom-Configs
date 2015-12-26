@@ -131,7 +131,7 @@ my $html = <<EOT;
 		}
 	</style>
 	<script src="Chart.min.js"></script>
-	<h1>S.E.A. Live Config Extrapolation Graphing</h1>
+	<h1>Arcadia Live Config Extrapolation Graphing</h1>
 	<table id='main'>
 		<tr>
 			<th><h2>Power / Shield Capacitance</h2></th>
