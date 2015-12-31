@@ -1,5 +1,4 @@
 <Faction>
-
 	<FactionActivity>
 		<BasicValues>
 			<SetInactiveAfterHours>48</SetInactiveAfterHours>
@@ -14,7 +13,6 @@
 			<MiningBonusUnowned>1</MiningBonusUnowned>
 		</BasicValues>
 	</FactionSystemOwnerBonus>
-
 
 	<FactionPointGeneral>
 		<BasicValues>
@@ -48,5 +46,4 @@
 			<ThresholdTakenRadiusForTradeGates>30</ThresholdTakenRadiusForTradeGates>
 		</BasicValues>
 	</FactionPointGalaxy>
-
 </Faction>
