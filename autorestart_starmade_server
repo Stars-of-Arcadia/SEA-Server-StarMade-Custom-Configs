@@ -2,6 +2,10 @@
 
 use strict;
 
+
+my $timeout = "/usr/bin/timeout";
+my $starnet_cmd = "/usr/local/bin/starnet_cmd";
+
 my $starmade_port = 4242;
 my $timeouts_before_restart = 10;
 
@@ -15,7 +19,7 @@ unless ($pid) {
 } else {
 	# Check if the socket is responding
 	# TImeout after 5s if not
-	system("timeout -k 5 -s TERM 5 starnet_cmd /player_list 2>/dev/null");
+	system("$timeout -k 5 -s TERM 5 $starnet_cmd /player_list 2>/dev/null");
 
 	# Last Command Status
 	if ($? > 0) {
@@ -29,7 +33,7 @@ unless ($pid) {
 		# Count > Allowed: Restart
 		if ($timeout_count >= $timeouts_before_restart) {
 			# Last ditch effort to send an alert about this
-			system("timeout -k 3 -s TERM 3 starnet_cmd /chat CRITICAL: AUTORESTARTING 2>/dev/null &");
+			system("$timeout -k 3 -s TERM 3 $starnet_cmd /chat CRITICAL: AUTORESTARTING 2>/dev/null &");
 			sleep 4;
 
 			# Kill all the stacked up java instances
