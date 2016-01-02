@@ -1,0 +1,59 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+my $starmade_port = 4242;
+my $timeouts_before_restart = 10;
+
+my $min = '128m';
+my $max = '16384m';
+my $pid = `ps aux|grep StarMade|grep java|grep -v grep|awk '{print\$2}'`;
+
+# Restart if not running
+unless ($pid) {
+	restart_starmade_server();
+} else {
+	# Check if the socket is responding
+	# TImeout after 5s if not
+	system("timeout -k 5 -s TERM 5 starnet_cmd /player_list 2>/dev/null");
+
+	# Last Command Status
+	if ($? > 0) {
+		# Read-in # of failures
+		open(COUNT, "<", "/etc/sm_server_timeout_count");
+		my $timeout_count = <COUNT>;
+		close(COUNT);
+
+		$timeout_count = 0 unless ($timeout_count);
+
+		# Count > Allowed: Restart
+		if ($timeout_count >= $timeouts_before_restart) {
+			# Last ditch effort to send an alert about this
+			system("timeout -k 3 -s TERM 3 starnet_cmd /chat CRITICAL: AUTORESTARTING 2>/dev/null &");
+			sleep 4;
+
+			# Kill all the stacked up java instances
+			system("killall -9 java");
+			sleep 2;
+
+			# Do it
+			restart_starmade_server();
+
+			# Reset the count
+			open(COUNT, "+>", "/etc/sm_server_timeout_count");
+			print COUNT 0;
+			close(COUNT);
+		} else {
+			# Increment the count
+			open(COUNT, "+>", "/etc/sm_server_timeout_count");
+			print COUNT ++$timeout_count;
+			close(COUNT);
+		}
+	}
+}
+
+# Restart the starmade server
+sub restart_starmade_server {
+	chdir('/home/steam/starmade/StarMade');
+	system("/usr/bin/java -Xms$min -Xmx$max -jar StarMade.jar -server > server.out 2>&1 &");
+}
