@@ -49,6 +49,11 @@ unless ($pid) {
 			print COUNT ++$timeout_count;
 			close(COUNT);
 		}
+	} else {
+		# Connection was OK, clear the count
+		open(COUNT, "+>", "/etc/sm_server_timeout_count");
+		print COUNT 0;
+		close(COUNT);
 	}
 }
 
