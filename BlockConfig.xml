@@ -32908,7 +32908,7 @@
 			<Block icon="288" name="Gold Bar" textureId="90, 90, 90, 90, 90, 90" type="SPRITE_GOLD">
 				<Consistence/>
 				<CubatomConsistence/>
-				<Price>1000000</Price>
+				<Price>100000</Price>
 				<Description>Solid Gold.</Description>
 				<BlockResourceType>2</BlockResourceType>
 				<ProducedInFactory>0</ProducedInFactory>
@@ -32923,7 +32923,7 @@
 				<Orientation>false</Orientation>
 				<Slab>0</Slab>
 				<Enterable>false</Enterable>
-				<Mass>0.01</Mass>
+				<Mass>0.1</Mass>
 				<Volume>0.01</Volume>
 				<Hitpoints>100</Hitpoints>
 				<Placable>false</Placable>
@@ -47764,7 +47764,7 @@
 		<Recipe costAmount="-1" costType="CREDITS" name="Micro Assembler">
 			<Product>
 				<Input>
-				<Item count="100000000">TERRAIN_ROCK_ID</Item>
+				<Item count="10000">TERRAIN_ROCK_ID</Item>
 				</Input>
 				<Output>
 					<Item count="1">SPRITE_GOLD</Item>
