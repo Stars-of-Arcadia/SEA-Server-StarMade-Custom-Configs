@@ -1,6 +1,6 @@
 Welcome to the Stars of Arcadia!
 
-** Run the !info, !rules, and !help commands for server details.
-
 ** NOTE: Use your StarMade nickname and VOTE for daily rewards! :)
 @ http://vote.sm.starsofarcadia.com
+
+** Run the !info, !rules, and !help commands for server details.
