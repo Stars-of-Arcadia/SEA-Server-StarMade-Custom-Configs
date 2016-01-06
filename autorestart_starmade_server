@@ -33,7 +33,7 @@ unless ($pid) {
 		# Count > Allowed: Restart
 		if ($timeout_count >= $timeouts_before_restart) {
 			# Last ditch effort to send an alert about this
-			system("$timeout -k 3 -s TERM 3 $starnet_cmd /chat CRITICAL: AUTORESTARTING 2>/dev/null &");
+			system("$timeout -k 3 -s TERM 3 $starnet_cmd /chat SERVER CRITICAL: AUTORESTARTING 2>/dev/null &");
 			sleep 4;
 
 			# Kill all the stacked up java instances
