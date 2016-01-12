@@ -272,9 +272,9 @@
 
 	<Explosive>
 		<BasicValues>
-			<BlockDamage>2000</BlockDamage>
-			<PlayerDamage>100</PlayerDamage>
-			<Radius>8</Radius>
+			<BlockDamage>30000</BlockDamage>
+			<PlayerDamage>1000</PlayerDamage>
+			<Radius>10</Radius>
 		</BasicValues>
 	</Explosive>
 
