@@ -26,7 +26,7 @@
 			<PowerGrowth>1.000384</PowerGrowth>
 			<PowerLinearGrowth>25.0</PowerLinearGrowth>
 			<PowerRecoveryTime>10000</PowerRecoveryTime>
-			<PowerBaseCapacity>10000</PowerBaseCapacity>
+			<PowerBaseCapacity>100000</PowerBaseCapacity>
 			<PowerTankCapacityLinear>5000</PowerTankCapacityLinear> <!-- multiplication per unit -->
 			<PowerTankCapacityPow>1.05</PowerTankCapacityPow> <!-- unitSize^x per unit -->
 			<TakeOffEffectPowerConsumptionMult>1</TakeOffEffectPowerConsumptionMult> <!-- multiplied by force -->
@@ -152,14 +152,14 @@
 
 	<Thruster>
 		<BasicValues>
-			<MulTotalThrust>0.75</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+			<MulTotalThrust>0.25</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
 			<PowTotalThrust>0.87</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
 			<ThrustPowerconsumptionPerBlock>.1</ThrustPowerconsumptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->	  
 			<PowPerThrustCollection>1</PowPerThrustCollection>		
 			<UnitCalcStyle>LINEAR</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
 			<UnitCalcMult>5.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
-			<MinThrustMassRatio>0.0</MinThrustMassRatio> <!-- minimum thrust to mass ratio multiplied with server max speed -->
-			<MaxThrustMassRatio>2.5</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
+			<MinThrustMassRatio>0.3</MinThrustMassRatio> <!-- minimum thrust to mass ratio multiplied with server max speed -->
+			<MaxThrustMassRatio>1.5</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
 			<ThrustMassRatioMaxSpeedAddition>0.5</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
 			<ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
 			<ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
@@ -301,7 +301,7 @@
 			<SalvageDamageNeededPerBlock>200</SalvageDamageNeededPerBlock> <!-- 0 will salvage on tick, otherwise the damage has to be met on the object to salvage one block -->
 			<SalvageDamagePerHit>2</SalvageDamagePerHit> <!-- salvage damage done per tick to fill up SalvageDamageNeededPerBlock -->
 			<PowerConsumptionPerTick>0.4</PowerConsumptionPerTick>
-			<Distance>0.12</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+			<Distance>0.032</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
 			<CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
 			<BurstTime>2.5</BurstTime> <!-- Time the beam will fire -->
 			<InitialTicks>10</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -357,7 +357,7 @@
 			<PowerConsumptionOnTargetFromBeamPower>1.0</PowerConsumptionOnTargetFromBeamPower> <!-- percentage (0 to 1) of SupplyPerHit that consumed on target -->
 			<PowerIncOnShooterFromBeamPower>0.75</PowerIncOnShooterFromBeamPower> <!-- percentage (0 to 1) of drain that gets added to shooter -->
 			<PowerConsumptionPerTick>25</PowerConsumptionPerTick>
-			<Distance>0.16</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+			<Distance>0.032</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
 			<CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
 			<BurstTime>2.5</BurstTime> <!-- Time the beam will fire -->
 			<InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -413,7 +413,7 @@
 			<PowerConsumptionOnShooterFromBeamPower>0.0</PowerConsumptionOnShooterFromBeamPower> <!-- percentage (0 to 1) of SupplyPerHit that consumed (additionally to PowerConsumptionPerTick) on shooter -->
 			<SupplyPerHit>150</SupplyPerHit>
 			<PowerConsumptionPerTick>300</PowerConsumptionPerTick>
-			<Distance>0.16</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+			<Distance>0.032</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
 			<CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
 			<BurstTime>2.5</BurstTime> <!-- Time the beam will fire -->
 			<InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -469,7 +469,7 @@
 			<PowerConsumptionPerTick>100</PowerConsumptionPerTick>
 			<ShieldConsumptionOnTargetFromBeamPower>1.0</ShieldConsumptionOnTargetFromBeamPower> <!-- percentage (0 to 1) of beam power taken of target in shield -->
 			<ShieldIncOnShooterFromBeamPower>0.5</ShieldIncOnShooterFromBeamPower> <!-- percentage (0 to 1) of beam power given to shooter in shield -->
-			<Distance>0.16</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+			<Distance>0.032</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
 			<CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
 			<BurstTime>2.5</BurstTime> <!-- Time the beam will fire -->
 			<InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -525,7 +525,7 @@
 			<PowerConsumptionPerTick>15</PowerConsumptionPerTick>
 			<ShieldConsumptionOnShooterFromBeamPower>1.0</ShieldConsumptionOnShooterFromBeamPower> <!-- percentage (0 to 1) of beam power taken from shooter in shield -->
 			<ShieldIncOnTargetFromBeamPower>1.0</ShieldIncOnTargetFromBeamPower> <!-- percentage (0 to 1) of beam power given to shooter in shield -->
-			<Distance>0.16</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+			<Distance>0.032</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
 			<CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
 			<BurstTime>2.5</BurstTime> <!-- Time the beam will fire -->
 			<InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -579,7 +579,7 @@
 			<TickRate>0.25</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
 			<RepairPerHit>100</RepairPerHit>
 			<PowerConsumptionPerTick>50</PowerConsumptionPerTick>
-			<Distance>0.12</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+			<Distance>0.032</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
 			<CoolDown>.5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
 			<BurstTime>.5</BurstTime> <!-- Time the beam will fire -->
 			<InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -655,8 +655,8 @@
 	<Cannon>
 		<BasicValues>
 			<Damage>10</Damage>
-			<Distance>0.666</Distance> <!-- 1 is equal to 100% sector radius -->
-			<Speed>1.875</Speed> <!-- In relation % to server max speed  1 = 100% -->
+			<Distance>0.134</Distance> <!-- 1 is equal to 100% sector radius -->
+			<Speed>4.95</Speed> <!-- In relation % to server max speed  1 = 100% -->
 			<ReloadMs>1000</ReloadMs>
 			<PowerConsumption>100</PowerConsumption>
 			<AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
@@ -665,20 +665,20 @@
 		</BasicValues>
 		<Combination>
 			<Cannon>
-				<Damage style="nerf" linear="true" value="10" />
-				<Reload style="buff" inverse="true" value="10" />
+				<Damage style="nerf" linear="true" value="70" />
+				<Reload style="buff" inverse="true" value="70" />
 				<Distance style="nerf" value="2"/>
 				<Speed style="skip" />
 				<Split style="skip" />
-				<PowerConsumption style="nerf" linear="true" value="10" />
+				<PowerConsumption style="buff" inverse="true" linear="true" value="2" />
 			</Cannon>
 			<Missile>
-				<Damage style="buff" linear="true" value="1" />
-				<Reload style="nerf" inverse="true" value="1" /> 
+				<Damage style="buff" linear="true" value="190" />
+				<Reload style="nerf" inverse="true" value="199" /> 
 				<Distance style="nerf" value="4" />
-				<Speed style="skip" />
-				<Split style="buff" value="19" />
-				<PowerConsumption style="nerf" inverse="true" linear="true" value="1"/>
+				<Speed style="nerf" />
+				<Split style="skip" />
+				<PowerConsumption style="nerf" inverse="true" linear="true" value="190"/>
 			</Missile>
 			<Beam>
 				<Damage style="buff" linear="true" value="3" /><!-- 1+3 = 4x damage -->
@@ -689,38 +689,38 @@
 				<PowerConsumption linear="true" style="nerf" inverse="true" value="3"/> <!-- 1+3 = 4x power consumption -->
 			</Beam>
 			<Pulse>
-				<Damage style="buff" value="15" linear="true" />
-				<Reload style="nerf" inverse="true" value="15" />
+				<Damage style="buff" value="9" linear="true" />
+				<Reload style="nerf" inverse="true" value="9" />
 				<Distance style="skip" />
 				<Speed style="skip" />
-				<Split style="skip" />
-				<PowerConsumption style="buff" linear="true" value="15" />
+				<Split style="buff" value="99" />
+				<PowerConsumption style="buff" linear="true" value="9" />
 			</Pulse>
 		</Combination>
 	</Cannon>
 
 	<DumbMissile>
 		<BasicValues>
-			<Damage>1000</Damage>
-			<Distance>.533</Distance> <!-- 1 is equal to 100% sector radius -->
+			<Damage>4000</Damage>
+			<Distance>.426</Distance> <!-- 1 is equal to 100% sector radius -->
 			<Radius>48</Radius>						<!--this a maximum blast radius -->
-			<Speed>0.371</Speed>				
-			<ReloadMs>50000</ReloadMs>
-			<PowerConsumption>2000</PowerConsumption> <!-- deviates from 10 power/1damage formula, missiles can easily be shot down -->
+			<Speed>0.93</Speed>				
+			<ReloadMs>200000</ReloadMs>
+			<PowerConsumption>4000</PowerConsumption> <!-- deviates from 10 power/1damage formula, missiles can easily be shot down -->
 			<AdditionalPowerConsumptionPerUnitMult>0.05</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
 			<ChasingTurnSpeedWithTargetInFront>1.0</ChasingTurnSpeedWithTargetInFront> 
-			<ChasingTurnSpeedWithTargetInBack>0.5</ChasingTurnSpeedWithTargetInBack> 
+			<ChasingTurnSpeedWithTargetInBack>0.3</ChasingTurnSpeedWithTargetInBack> 
 		</BasicValues>
 		<Combination>
 			<Cannon>
-				<Damage style="nerf" value="200" linear="true" />
-				<Reload style="buff" inverse="true" value="200" />
+				<Damage style="nerf" value="286" linear="true" />
+				<Reload style="buff" inverse="true" value="1000" />
 				<Distance style="nerf" value="1.5" />
 				<BlastRadius style="nerf" value="8" />
 				<Speed style="buff" value="6"/>
 				<Split style="skip" />
 				<Mode style="set" value="0"/> <!-- Dumb Missile -->
-				<PowerConsumption style="nerf" value="10" linear="true" />
+				<PowerConsumption style="nerf" value="286" linear="true" />
 			</Cannon>
 			<Missile>
 				<Damage style="nerf" value="10" linear="true" />
@@ -759,7 +759,7 @@
 		<BasicValues>
 			<DamagePerHit>5</DamagePerHit>  
 			<PowerConsumptionPerTick>50</PowerConsumptionPerTick> 
-			<Distance>0.334</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
+			<Distance>0.667</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
 			<TickRate>0.1</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
 			<CoolDown>15.0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
 			<BurstTime>3</BurstTime> <!-- Time the beam will fire -->
