@@ -676,7 +676,7 @@
 				<Damage style="buff" linear="true" value="190" />
 				<Reload style="nerf" inverse="true" value="199" /> 
 				<Distance style="nerf" value="4" />
-				<Speed style="nerf" />
+				<Speed style="nerf" value="2" />
 				<Split style="skip" />
 				<PowerConsumption style="nerf" inverse="true" linear="true" value="190"/>
 			</Missile>
