@@ -702,7 +702,7 @@
 	<DumbMissile>
 		<BasicValues>
 			<Damage>4000</Damage>
-			<Distance>.426</Distance> <!-- 1 is equal to 100% sector radius -->
+			<Distance>0.426</Distance> <!-- 1 is equal to 100% sector radius -->
 			<Radius>48</Radius>						<!--this a maximum blast radius -->
 			<Speed>0.93</Speed>				
 			<ReloadMs>200000</ReloadMs>
