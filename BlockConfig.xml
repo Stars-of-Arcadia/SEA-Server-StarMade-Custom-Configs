@@ -32501,63 +32501,121 @@
 				<LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
 				<SlabReference>0</SlabReference>
 			</Block>
-			<Block icon="289" name="Faction Permission Module" textureId="27, 27, 27, 27, 27, 27" type="FRACTION_EXCEPTION_ID">
-				<Consistence>
-					<Item count="10">TERRAIN_M11L2_ID</Item>
-					<Item count="10">METAL_MESH</Item>
-				</Consistence>
-				<CubatomConsistence/>
-				<Price>300</Price>
-				<Description>Modifies the permissions needed to use blocks normally locked by faction modules. When connected to a module, it shuts off the faction member requirement needed to activate that block. -Structural Stats- $ARMOUR% Armor $HP HP</Description>
-				<BlockResourceType>2</BlockResourceType>
-				<ProducedInFactory>4</ProducedInFactory>
-				<BasicResourceFactory>0</BasicResourceFactory>
-				<FactoryBakeTime>5.0</FactoryBakeTime>
-				<Animated>false</Animated>
-				<Armour>0.0</Armour>
-				<ArmorHPContribution>0</ArmorHPContribution>
-				<StructureHPContribution>1000</StructureHPContribution>
-				<Transparency>false</Transparency>
-				<InShop>true</InShop>
-				<Orientation>false</Orientation>
-				<Slab>0</Slab>
-				<Enterable>false</Enterable>
-				<Mass>0.05</Mass>
-				<Volume>0.05</Volume>
-				<Hitpoints>25</Hitpoints>
-				<Placable>true</Placable>
-				<InRecipe>true</InRecipe>
-				<CanActivate>false</CanActivate>
-				<IndividualSides>1</IndividualSides>
-				<SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
-				<HasActivationTexture>false</HasActivationTexture>
-				<MainCombinationController>false</MainCombinationController>
-				<SupportCombinationController>false</SupportCombinationController>
-				<EffectCombinationController>false</EffectCombinationController>
-				<Physical>true</Physical>
-				<BlockStyle>0</BlockStyle>
-				<LightSource>false</LightSource>
-				<Door>false</Door>
-				<Deprecated>false</Deprecated>
-				<CubatomCompound>
-					<Cubatom>
-						<mass>medium</mass>
-						<spinning>base_spin</spinning>
-						<thermal>liquid</thermal>
-						<conductivity>conductive</conductivity>
-					</Cubatom>
-					<Cubatom>
-						<mass>light</mass>
-						<spinning>base_spin</spinning>
-						<thermal>liquid</thermal>
-						<conductivity>insulator</conductivity>
-					</Cubatom>
-				</CubatomCompound>
-				<ResourceInjection>0</ResourceInjection>
-				<ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
-				<LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
-				<SlabReference>0</SlabReference>
-			</Block>
+<Block icon="289" name="Public Permission Module" textureId="596, 596, 596, 596, 596, 596" type="FRACTION_EXCEPTION_ID">
+<Consistence>
+<Item count="10">TERRAIN_M11L2_ID</Item>
+<Item count="10">METAL_MESH</Item>
+</Consistence>
+<CubatomConsistence/>
+<Price>300</Price>
+<Description>Modifies the permissions needed to use blocks normally locked by faction modules. When connected to a module, it shuts off the faction member requirement needed to activate that block. -Structural Stats- $ARMOUR% Armor $HP HP</Description>
+<BlockResourceType>2</BlockResourceType>
+<ProducedInFactory>4</ProducedInFactory>
+<BasicResourceFactory>0</BasicResourceFactory>
+<FactoryBakeTime>5.0</FactoryBakeTime>
+<Animated>false</Animated>
+<Armour>0.0</Armour>
+<ArmorHPContribution>0</ArmorHPContribution>
+<StructureHPContribution>10</StructureHPContribution>
+<Transparency>false</Transparency>
+<InShop>true</InShop>
+<Orientation>false</Orientation>
+<Slab>0</Slab>
+<Enterable>false</Enterable>
+<Mass>0.05</Mass>
+<Volume>0.05</Volume>
+<Hitpoints>25</Hitpoints>
+<Placable>true</Placable>
+<InRecipe>true</InRecipe>
+<CanActivate>false</CanActivate>
+<IndividualSides>1</IndividualSides>
+<SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+<HasActivationTexture>false</HasActivationTexture>
+<MainCombinationController>false</MainCombinationController>
+<SupportCombinationController>false</SupportCombinationController>
+<EffectCombinationController>false</EffectCombinationController>
+<Physical>true</Physical>
+<BlockStyle>0</BlockStyle>
+<LightSource>false</LightSource>
+<Door>false</Door>
+<Deprecated>false</Deprecated>
+<CubatomCompound>
+<Cubatom>
+<mass>medium</mass>
+<spinning>base_spin</spinning>
+<thermal>liquid</thermal>
+<conductivity>conductive</conductivity>
+</Cubatom>
+<Cubatom>
+<mass>light</mass>
+<spinning>base_spin</spinning>
+<thermal>liquid</thermal>
+<conductivity>insulator</conductivity>
+</Cubatom>
+</CubatomCompound>
+<ResourceInjection>0</ResourceInjection>
+<ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+<LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
+<SlabReference>0</SlabReference>
+</Block>
+<Block icon="689" name="Faction Permission Module" textureId="595, 595, 595, 595, 595, 595" type="FACTION_PERMISSION">
+<Consistence>
+<Item count="10">TERRAIN_M11L2_ID</Item>
+<Item count="10">METAL_MESH</Item>
+</Consistence>
+<CubatomConsistence/>
+<Price>300</Price>
+<Description>Modifies the permissions needed to use blocks normally locked by a certain faction rank. When connected to a module, it shuts off the faction rank requirement needed to activate that block. -Structural Stats- $ARMOUR% Armor $HP HP</Description>
+<BlockResourceType>2</BlockResourceType>
+<ProducedInFactory>4</ProducedInFactory>
+<BasicResourceFactory>0</BasicResourceFactory>
+<FactoryBakeTime>5.0</FactoryBakeTime>
+<Animated>false</Animated>
+<Armour>0.0</Armour>
+<ArmorHPContribution>0</ArmorHPContribution>
+<StructureHPContribution>10</StructureHPContribution>
+<Transparency>false</Transparency>
+<InShop>true</InShop>
+<Orientation>false</Orientation>
+<Slab>0</Slab>
+<Enterable>false</Enterable>
+<Mass>0.05</Mass>
+<Volume>0.05</Volume>
+<Hitpoints>25</Hitpoints>
+<Placable>true</Placable>
+<InRecipe>true</InRecipe>
+<CanActivate>false</CanActivate>
+<IndividualSides>1</IndividualSides>
+<SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+<HasActivationTexture>false</HasActivationTexture>
+<MainCombinationController>false</MainCombinationController>
+<SupportCombinationController>false</SupportCombinationController>
+<EffectCombinationController>false</EffectCombinationController>
+<Physical>true</Physical>
+<BlockStyle>0</BlockStyle>
+<LightSource>false</LightSource>
+<Door>false</Door>
+<Deprecated>false</Deprecated>
+<CubatomCompound>
+<Cubatom>
+<mass>negative</mass>
+<spinning>null_spin</spinning>
+<thermal>liquid</thermal>
+<conductivity>conductive</conductivity>
+</Cubatom>
+<Cubatom>
+<mass>medium</mass>
+<spinning>null_spin</spinning>
+<thermal>gas</thermal>
+<conductivity>insulator</conductivity>
+</Cubatom>
+</CubatomCompound>
+<ResourceInjection>0</ResourceInjection>
+<ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+<LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
+<SlabReference>0</SlabReference>
+</Block>
+
 			<Block icon="276" name="Power Capacitor" textureId="264, 264, 264, 264, 264, 264" type="POWER_HOLDER_ID">
 				<Consistence>
 					<Item count="20">POWER_COIL_ID</Item>
