@@ -12,7 +12,7 @@
 			<ShieldRechargeInitial>0</ShieldRechargeInitial> <!-- initial shield recharge on ships without shieldRecharge blocks -->
 			<ShieldRechargePow>1.1333</ShieldRechargePow>	<!-- shieldCapacity = ((totalUnitShieldCapacity*1.0)^0.9)*55 -->
 			<ShieldRechargePreMul>1.0</ShieldRechargePreMul>
-			<ShieldRechargeTotalMul>7.5</ShieldRechargeTotalMul>
+			<ShieldRechargeTotalMul>5.5</ShieldRechargeTotalMul>
 			<ShieldRechargeCycleTime>0.1</ShieldRechargeCycleTime> <!-- time in secs between recharge cycles. This value is relative, so changing it won't affect the time a ship needs to fully recharge (e.g. twice as many cycles -> half as many reacharge per cycle)-->
 			<ShieldRecoveryTimeAfterOutage>10</ShieldRecoveryTimeAfterOutage> <!-- time, the shield will not recharge after reaching 0 -->
 			<ShieldDirectRecoveryTime>10</ShieldDirectRecoveryTime> <!-- this time is set to the value gives after each hit sustained. In direct recovery, <ShieldRecoveryMultPerPercent> is applied. Otherwise it's running on full recharge -->
@@ -27,7 +27,7 @@
 			<PowerLinearGrowth>25.0</PowerLinearGrowth>
 			<PowerRecoveryTime>10000</PowerRecoveryTime>
 			<PowerBaseCapacity>100000</PowerBaseCapacity>
-			<PowerTankCapacityLinear>5000</PowerTankCapacityLinear> <!-- multiplication per unit -->
+			<PowerTankCapacityLinear>10000</PowerTankCapacityLinear> <!-- multiplication per unit -->
 			<PowerTankCapacityPow>1.05</PowerTankCapacityPow> <!-- unitSize^x per unit -->
 			<TakeOffEffectPowerConsumptionMult>1</TakeOffEffectPowerConsumptionMult> <!-- multiplied by force -->
 			<EvadeEffectPowerConsumptionMult>1</EvadeEffectPowerConsumptionMult> <!-- multiplied by force -->
@@ -152,17 +152,17 @@
 
 	<Thruster>
 		<BasicValues>
-			<MulTotalThrust>0.75</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+			<MulTotalThrust>0.25</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
 			<PowTotalThrust>0.777</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
 			<ThrustPowerconsumptionPerBlock>1</ThrustPowerconsumptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->	  
-			<PowPerThrustCollection>1</PowPerThrustCollection>		
+			<PowPerThrustCollection>2</PowPerThrustCollection>		
 			<UnitCalcStyle>LINEAR</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
 			<UnitCalcMult>5.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
 			<MinThrustMassRatio>0.3</MinThrustMassRatio> <!-- minimum thrust to mass ratio multiplied with server max speed -->
 			<MaxThrustMassRatio>1.0</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
 			<ThrustMassRatioMaxSpeedAddition>0.0</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
 			<ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
-			<ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
+			<ThrustRotPercentMult>80.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
 			<IntertiaPow>0.25</IntertiaPow> <!-- additional multiplier of ratio -->
 			<ThrustBalanceChangeApplyTimeInSecs>5.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->
 		</BasicValues>
@@ -322,7 +322,7 @@
 				<Distance style="skip" />
 				<PowerConsumption style="skip" linear="true" />
 				<PowerPerHit style="skip" linear="true"/>
-				<Split style="buff" value="9"/>
+				<Split style="skip" />
 				<CoolDown style="skip"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -690,11 +690,11 @@
 			</Beam>
 			<Pulse>
 				<Damage style="buff" value="29" linear="true" />
-				<Reload style="nerf" inverse="true" value="9" />
-				<Distance style="skip" />
-				<Speed style="skip" />
+				<Reload style="skip" />
+				<Distance style="nerf" value="5" />
+				<Speed style="nerf" value="2" />
 				<Split style="buff" value="29" />
-				<PowerConsumption style="buff" linear="true" value="9" />
+				<PowerConsumption style="skip" linear="true" />
 			</Pulse>
 		</Combination>
 	</Cannon>
@@ -713,14 +713,14 @@
 		</BasicValues>
 		<Combination>
 			<Cannon>
-				<Damage style="nerf" value="2000" linear="true" />
-				<Reload style="buff" inverse="true" value="1000" />
+				<Damage style="nerf" value="1600" linear="true" />
+				<Reload style="buff" inverse="true" value="800" />
 				<Distance style="nerf" value="2" />
 				<BlastRadius style="skip" />
-				<Speed style="buff" value="4"/>
+				<Speed style="buff" value="2.9"/>
 				<Split style="skip" />
 				<Mode style="set" value="0"/> <!-- Dumb Missile -->
-				<PowerConsumption style="buff" value="200" inverse="true" linear="true" />
+				<PowerConsumption style="buff" value="160" inverse="true" linear="true" />
 			</Cannon>
 			<Missile>
 				<Damage style="nerf" value="1200" linear="true" />
@@ -743,7 +743,7 @@
 				<PowerConsumption style="buff" inverse="true" value="4" linear="true" />
 			</Beam>
 			<Pulse>
-				<Damage style="" linear="true" value="40" />
+				<Damage style="nerf" linear="true" value="40" />
 				<Reload style="nerf" linear="false" value="20" />
 				<Distance style="nerf" value="2" />
 				<BlastRadius style="nerf" value="10" />
@@ -771,18 +771,18 @@
 		<Combination>
 			<Cannon>
 				<HitSpeed style="skip" /> <!-- Affects TickRate -->
-				<Distance style="skip" />
-				<PowerConsumption style="buff" inverse="true" value="5" linear="true" />
-				<PowerPerHit style="nerf" value="5" linear="true" /> <!-- This is the damage per hit -->
+				<Distance style="nerf" value="2" />
+				<PowerConsumption style="buff" inverse="true" value="10" linear="true" />
+				<PowerPerHit style="nerf" value="10" linear="true" /> <!-- This is the damage per hit -->
 				<Split style="skip" />
-				<CoolDown style="buff" inverse="true" value="5" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<CoolDown style="buff" inverse="true" value="10" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Cannon>
 			<Missile>
 				<HitSpeed style="skip" /> <!-- Affects TickRate -->
 				<Distance style="skip" />
-				<PowerConsumption style="nerf" inverse="true" value="190 linear="true" />
+				<PowerConsumption style="nerf" inverse="true" value="190" linear="true" />
 				<PowerPerHit style="nerf" inverse="true" value="190" linear="true"/> <!-- linear is needed here -->
 				<Split style="skip" />
 				<CoolDown style="nerf" inverse="true" value="190" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
@@ -803,8 +803,8 @@
 				<HitSpeed style="skip"/> <!-- Affects TickRate -->
 				<Distance style="nerf" value="10" />
 				<PowerConsumption style="skip" linear="true" />
-				<PowerPerHit style="buff" value="9" linear="true" />
-				<Split style="buff" value="9" />
+				<PowerPerHit style="buff" value="29" linear="true" />
+				<Split style="buff" value="29" />
 				<CoolDown style="skip" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
@@ -815,17 +815,17 @@
 	<DamagePulse>
 		<BasicValues>
 			<Damage>200</Damage>  <!-- Uses the missile damage system, detonation point is <Radius> blocks away from output block -->
-			<ReloadMs>500</ReloadMs>
-			<Radius>40</Radius>
-			<PowerConsumption>2000</PowerConsumption> <!-- deviates from 10 power/1damage formula for now, it's hard to use this weapon -->
-			<AdditionalPowerConsumptionPerUnitMult>0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
+			<ReloadMs>1000</ReloadMs>
+			<Radius>25</Radius>
+			<PowerConsumption>1000</PowerConsumption> <!-- deviates from 10 power/1damage formula for now, it's hard to use this weapon -->
+			<AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 tu turn off nerf-->
 		</BasicValues>
 		<Combination>
 			<Cannon>
-				<PulsePower style="nerf" value="5" linear="true" />				<!-- this is the same as PowerPerHit -->
-				<Reload style="buff" inverse="true" value="5" />
-				<Radius style="buff" value="2" />
-				<PowerConsumption style="nerf" value="2.5" linear="true" />
+				<PulsePower style="nerf" value="10" linear="true" />				<!-- this is the same as PowerPerHit -->
+				<Reload style="buff" inverse="true" value="10" />
+				<Radius style="nerf" value="10" />
+				<PowerConsumption style="nerf" value="10" linear="true" />
 			</Cannon>
 			<Missile>
 				<PulsePower style="nerf" value="5" linear="true" />			 <!-- since the pulse is a localized burst, creating multiples overlapping is pointless, so we simply mimic the cannon slaved effect and increase rate of fire -->
@@ -836,7 +836,7 @@
 			<Beam>
 				<PulsePower style="buff" value="2" linear="true" />
 				<Reload style="nerf" inverse="true" value="10" />
-				<Radius style="buff" value="5" />
+				<Radius style="buff" value="4" />
 				<PowerConsumption style="nerf" inverse="true" value="10" linear="true" />
 			</Beam>
 			<Pulse>
@@ -850,17 +850,17 @@
 
 	<PushPulse>
 		<BasicValues>
-			<Force>25</Force>
-			<ReloadMs>5000</ReloadMs>
+			<Force>1000</Force>
+			<ReloadMs>10000</ReloadMs>
 			<Radius>100</Radius>
-			<PowerConsumption>250</PowerConsumption>
+			<PowerConsumption>1000</PowerConsumption>
 		</BasicValues>
 		<Combination>
 			<Cannon>
-				<PulsePower style="nerf" value="5" linear="true" />
-				<Reload style="buff" inverse="true" value="5" />
+				<PulsePower style="nerf" value="10" linear="true" />
+				<Reload style="buff" inverse="true" value="10" />
 				<Radius style="skip" />
-				<PowerConsumption style="nerf" value="5" linear="true" />
+				<PowerConsumption style="nerf" value="10" linear="true" />
 			</Cannon>
 			<Missile>
 				<PulsePower style="nerf" value="5" linear="true" />			<!-- since the pulse is a localized burst, creating multiples overlapping is pointless, so we simply mimic the cannon slaved effect and increase rate of fire -->
@@ -1007,11 +1007,11 @@
 			<PiercingDamagePreservedOnImpact>0.0</PiercingDamagePreservedOnImpact>
 			<PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
 			<DefensiveBasePowerConsumption>10</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
-			<DefensiveBaseMultiplicator>45</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
+			<DefensiveBaseMultiplicator>10</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
 			<DefensiveEffectType>STATUS_ARMOR_HP_DEDUCTION_BONUS</DefensiveEffectType> 
 			<EffectConnectDescription></EffectConnectDescription>
 			<EffectIgnoresShields>false</EffectIgnoresShields>
-			<DefensiveEffectCapPercent>0.25</DefensiveEffectCapPercent>
+			<DefensiveEffectCapPercent>0.49</DefensiveEffectCapPercent>
 		</BasicValues>
 	</PunchThrough>
 
@@ -1271,7 +1271,7 @@
 			<PiercingDamagePreservedOnImpact>0</PiercingDamagePreservedOnImpact>
 			<PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
 			<DefensiveBasePowerConsumption>50</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
-			<DefensiveBaseMultiplicator>20</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
+			<DefensiveBaseMultiplicator>2</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
 			<DefensiveEffectType>TAKE_OFF</DefensiveEffectType> 
 			<EffectConnectDescription>Adds push effect to the weapon</EffectConnectDescription>
 			<EffectIgnoresShields>true</EffectIgnoresShields>
@@ -1337,7 +1337,7 @@
 			<PiercingDamagePreservedOnImpact>0</PiercingDamagePreservedOnImpact>
 			<PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
 			<DefensiveBasePowerConsumption>50</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
-			<DefensiveBaseMultiplicator>20</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
+			<DefensiveBaseMultiplicator>2</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
 			<DefensiveEffectType>EVADE</DefensiveEffectType> 
 			<EffectConnectDescription>Adds pull effect to the weapon</EffectConnectDescription>
 			<EffectIgnoresShields>true</EffectIgnoresShields>
@@ -1402,12 +1402,12 @@
 			<Explosive>false</Explosive>
 			<PiercingDamagePreservedOnImpact>0</PiercingDamagePreservedOnImpact>
 			<PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
-			<DefensiveBasePowerConsumption>20</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
-			 <DefensiveBaseMultiplicator>12</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
+			<DefensiveBasePowerConsumption>0</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
+			 <DefensiveBaseMultiplicator>1</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
 			<DefensiveEffectType>STATUS_SHIELD_HARDEN</DefensiveEffectType> 
 			<EffectConnectDescription>Does extra damage against shields,\nbut less against blocks</EffectConnectDescription>
 			<EffectIgnoresShields>false</EffectIgnoresShields>
-			<DefensiveEffectCapPercent>0.6</DefensiveEffectCapPercent>
+			<DefensiveEffectCapPercent>0.</DefensiveEffectCapPercent>
 		</BasicValues>
 	</IonEffect>
 
@@ -1468,8 +1468,8 @@
 			<Explosive>false</Explosive>
 			<PiercingDamagePreservedOnImpact>0</PiercingDamagePreservedOnImpact>
 			<PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
-			<DefensiveBasePowerConsumption>6.6</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
-			<DefensiveBaseMultiplicator>10</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
+			<DefensiveBasePowerConsumption>10</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
+			<DefensiveBaseMultiplicator>5</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
 			<DefensiveEffectType>STATUS_TOP_SPEED</DefensiveEffectType> 
 			<EffectConnectDescription>More damage for power usage</EffectConnectDescription>
 			<EffectIgnoresShields>false</EffectIgnoresShields>
