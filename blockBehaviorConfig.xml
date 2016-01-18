@@ -280,8 +280,8 @@
 
 	<Cargo>
 		<BasicValues>
-			<CapacityPerBlockMultShip>1000.0</CapacityPerBlockMultShip>  <!-- simple capacity per block added -->
-			<CapacityPerBlockMultStation>1000.0</CapacityPerBlockMultStation>  <!-- simple capacity per block added -->
+			<CapacityPerBlockMultShip>10000.0</CapacityPerBlockMultShip>  <!-- simple capacity per block added -->
+			<CapacityPerBlockMultStation>10000.0</CapacityPerBlockMultStation>  <!-- simple capacity per block added -->
 			<CapacityPerGroupQuadraticShip>1.0</CapacityPerGroupQuadraticShip> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
 			<CapacityPerGroupQuadraticStation>1.0</CapacityPerGroupQuadraticStation> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
 			
