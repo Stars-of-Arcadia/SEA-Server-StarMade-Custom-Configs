@@ -155,11 +155,11 @@
 			<MulTotalThrust>0.25</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
 			<PowTotalThrust>0.777</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
 			<ThrustPowerconsumptionPerBlock>1</ThrustPowerconsumptionPerBlock> <!-- WARNING: this is consumed every 30ms! use -1 for power consuption per thrust generated -->	  
-			<PowPerThrustCollection>2</PowPerThrustCollection>		
+			<PowPerThrustCollection>1.1</PowPerThrustCollection>		
 			<UnitCalcStyle>LINEAR</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
 			<UnitCalcMult>5.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
 			<MinThrustMassRatio>0.3</MinThrustMassRatio> <!-- minimum thrust to mass ratio multiplied with server max speed -->
-			<MaxThrustMassRatio>1.0</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
+			<MaxThrustMassRatio>1.5</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
 			<ThrustMassRatioMaxSpeedAddition>0.0</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
 			<ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
 			<ThrustRotPercentMult>80.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
@@ -280,8 +280,8 @@
 
 	<Cargo>
 		<BasicValues>
-			<CapacityPerBlockMultShip>1000.0</CapacityPerBlockMultShip>  <!-- simple capacity per block added -->
-			<CapacityPerBlockMultStation>1000.0</CapacityPerBlockMultStation>  <!-- simple capacity per block added -->
+			<CapacityPerBlockMultShip>10000.0</CapacityPerBlockMultShip>  <!-- simple capacity per block added -->
+			<CapacityPerBlockMultStation>10000.0</CapacityPerBlockMultStation>  <!-- simple capacity per block added -->
 			<CapacityPerGroupQuadraticShip>1.0</CapacityPerGroupQuadraticShip> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
 			<CapacityPerGroupQuadraticStation>1.0</CapacityPerGroupQuadraticStation> <!-- determines group behavior. calculated: (groupsize*CapacityPerBlocMult) ^ CapacityPerGroupQuadratic  -->
 			
@@ -319,11 +319,11 @@
 			</Cannon>
 			<Missile>
 				<HitSpeed style="skip" />
-				<Distance style="skip" />
-				<PowerConsumption style="skip" linear="true" />
-				<PowerPerHit style="skip" linear="true"/>
+				<Distance style="buff" value="2" />
+				<PowerConsumption style="nerf" inverse="true" value="39 linear="true" />
+				<PowerPerHit style="buff" value="39" linear="true"/>
 				<Split style="skip" />
-				<CoolDown style="skip"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<CoolDown style="nerf" inverse="true" value="39" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Missile>
@@ -338,13 +338,13 @@
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Beam>
 			<Pulse>
-				<HitSpeed style="nerf" inverse="true" value="5" />
-				<Distance style="skip" />
-				<PowerConsumption style="nerf" inverse="true" value="5" linear="true" />
-				<PowerPerHit style="buff" value="5" linear="true" />
-				<Split style="skip" />
-				<CoolDown style="nerf" inverse="true" value="5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-				<BurstTime style="buff" value="5"/> <!-- Time the beam will fire -->
+				<HitSpeed style="skip" />
+				<Distance style="nerf" value="5" />
+				<PowerConsumption style="nerf" inverse="true" value="29" linear="true" />
+				<PowerPerHit style="buff" value="29" linear="true" />
+				<Split style="buff" value="29" />
+				<CoolDown style="skip" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<BurstTime style="skip" /> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Pulse>
 		</Combination>
@@ -375,11 +375,11 @@
 			</Cannon>
 			<Missile>
 				<HitSpeed style="skip" />
-				<Distance style="skip" />
-				<PowerConsumption style="skip" linear="true" />
-				<PowerPerHit style="skip" linear="true" />
-				<Split style="buff" value="9"/>
-				<CoolDown style="skip"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<Distance style="buff" value="2" />
+				<PowerConsumption style="nerf" inverse="true" value="39 linear="true" />
+				<PowerPerHit style="buff" value="39" linear="true"/>
+				<Split style="skip" />
+				<CoolDown style="nerf" inverse="true" value="39" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Missile>
@@ -394,13 +394,13 @@
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Beam>
 			<Pulse>
-				<HitSpeed style="nerf" inverse="true" value="5" />
-				<Distance style="skip" />
-				<PowerConsumption style="nerf" inverse="true" value="5" linear="true" />
-				<PowerPerHit style="buff" value="5" linear="true" />
-				<Split style="skip" />
-				<CoolDown style="nerf" inverse="true" value="5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-				<BurstTime style="buff" value="5"/> <!-- Time the beam will fire -->
+				<HitSpeed style="skip" />
+				<Distance style="nerf" value="5" />
+				<PowerConsumption style="nerf" inverse="true" value="29" linear="true" />
+				<PowerPerHit style="buff" value="29" linear="true" />
+				<Split style="buff" value="29" />
+				<CoolDown style="skip" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<BurstTime style="skip" /> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Pulse>
 		</Combination>
@@ -431,11 +431,11 @@
 			</Cannon>
 			<Missile>
 				<HitSpeed style="skip" />
-				<Distance style="skip" />
-				<PowerConsumption style="skip" linear="true" />
-				<PowerPerHit style="skip" linear="true"/>
-				<Split style="buff" value="9"/>
-				<CoolDown style="skip"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<Distance style="buff" value="2" />
+				<PowerConsumption style="nerf" inverse="true" value="39 linear="true" />
+				<PowerPerHit style="buff" value="39" linear="true"/>
+				<Split style="skip" />
+				<CoolDown style="nerf" inverse="true" value="39" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Missile>
@@ -450,13 +450,13 @@
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Beam>
 			<Pulse>
-				<HitSpeed style="nerf" inverse="true" value="5" />
-				<Distance style="skip" />
-				<PowerConsumption style="nerf" inverse="true" value="5" linear="true" />
-				<PowerPerHit style="buff" value="5" linear="true" />
-				<Split style="skip" />
-				<CoolDown style="nerf" inverse="true" value="5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-				<BurstTime style="buff" value="5"/> <!-- Time the beam will fire -->
+				<HitSpeed style="skip" />
+				<Distance style="nerf" value="5" />
+				<PowerConsumption style="nerf" inverse="true" value="29" linear="true" />
+				<PowerPerHit style="buff" value="29" linear="true" />
+				<Split style="buff" value="29" />
+				<CoolDown style="skip" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<BurstTime style="skip" /> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Pulse>
 		</Combination>
@@ -487,11 +487,11 @@
 			</Cannon>
 			<Missile>
 				<HitSpeed style="skip" />
-				<Distance style="skip" />
-				<PowerConsumption style="skip" linear="true" />
-				<PowerPerHit style="skip" linear="true"/>
-				<Split style="buff" value="9"/>
-				<CoolDown style="skip"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<Distance style="buff" value="2" />
+				<PowerConsumption style="nerf" inverse="true" value="39 linear="true" />
+				<PowerPerHit style="buff" value="39" linear="true"/>
+				<Split style="skip" />
+				<CoolDown style="nerf" inverse="true" value="39" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Missile>
@@ -506,13 +506,13 @@
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Beam>
 			<Pulse>
-				<HitSpeed style="nerf" inverse="true" value="5" />
-				<Distance style="skip" />
-				<PowerConsumption style="nerf" inverse="true" value="5" linear="true" />
-				<PowerPerHit style="buff" value="5" linear="true" />
-				<Split style="skip" />
-				<CoolDown style="nerf" inverse="true" value="5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-				<BurstTime style="buff" value="5"/> <!-- Time the beam will fire -->
+				<HitSpeed style="skip" />
+				<Distance style="nerf" value="5" />
+				<PowerConsumption style="nerf" inverse="true" value="29" linear="true" />
+				<PowerPerHit style="buff" value="29" linear="true" />
+				<Split style="buff" value="29" />
+				<CoolDown style="skip" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<BurstTime style="skip" /> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Pulse>
 		</Combination>
@@ -543,11 +543,11 @@
 			</Cannon>
 			<Missile>
 				<HitSpeed style="skip" />
-				<Distance style="skip" />
-				<PowerConsumption style="skip" linear="true" />
-				<PowerPerHit style="skip" linear="true"/>
-				<Split style="buff" value="9"/>
-				<CoolDown style="skip"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<Distance style="buff" value="2" />
+				<PowerConsumption style="nerf" inverse="true" value="39 linear="true" />
+				<PowerPerHit style="buff" value="39" linear="true"/>
+				<Split style="skip" />
+				<CoolDown style="nerf" inverse="true" value="39" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Missile>
@@ -562,13 +562,13 @@
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Beam>
 			<Pulse>
-				<HitSpeed style="nerf" inverse="true" value="5" />
-				<Distance style="skip" />
-				<PowerConsumption style="nerf" inverse="true" value="5" linear="true" />
-				<PowerPerHit style="buff" value="5" linear="true" />
-				<Split style="skip" />
-				<CoolDown style="nerf" inverse="true" value="5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-				<BurstTime style="buff" value="5"/> <!-- Time the beam will fire -->
+				<HitSpeed style="skip" />
+				<Distance style="nerf" value="5" />
+				<PowerConsumption style="nerf" inverse="true" value="29" linear="true" />
+				<PowerPerHit style="buff" value="29" linear="true" />
+				<Split style="buff" value="29" />
+				<CoolDown style="skip" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<BurstTime style="skip" /> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Pulse>
 		</Combination>
@@ -597,11 +597,11 @@
 			</Cannon>
 			<Missile>
 				<HitSpeed style="skip" />
-				<Distance style="skip" />
-				<PowerConsumption style="skip" linear="true" />
-				<PowerPerHit style="skip" linear="true"/>
-				<Split style="buff" value="9"/>
-				<CoolDown style="skip"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<Distance style="buff" value="2" />
+				<PowerConsumption style="nerf" inverse="true" value="39 linear="true" />
+				<PowerPerHit style="buff" value="39" linear="true"/>
+				<Split style="skip" />
+				<CoolDown style="nerf" inverse="true" value="39" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
 				<BurstTime style="skip"/> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Missile>
@@ -616,13 +616,13 @@
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Beam>
 			<Pulse>
-				<HitSpeed style="nerf" inverse="true" value="5" />
-				<Distance style="skip" />
-				<PowerConsumption style="nerf" inverse="true" value="5" linear="true" />
-				<PowerPerHit style="buff" value="5" linear="true" />
-				<Split style="skip" />
-				<CoolDown style="nerf" inverse="true" value="5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-				<BurstTime style="buff" value="5"/> <!-- Time the beam will fire -->
+				<HitSpeed style="skip" />
+				<Distance style="nerf" value="5" />
+				<PowerConsumption style="nerf" inverse="true" value="29" linear="true" />
+				<PowerPerHit style="buff" value="29" linear="true" />
+				<Split style="buff" value="29" />
+				<CoolDown style="skip" /> <!-- Time it takes to fire beam again from the start-time it first activated -->
+				<BurstTime style="skip" /> <!-- Time the beam will fire -->
 				<InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 			</Pulse>
 		</Combination>
@@ -1006,8 +1006,8 @@
 			<Explosive>false</Explosive>
 			<PiercingDamagePreservedOnImpact>0.0</PiercingDamagePreservedOnImpact>
 			<PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
-			<DefensiveBasePowerConsumption>10</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
-			<DefensiveBaseMultiplicator>10</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
+			<DefensiveBasePowerConsumption>100</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
+			<DefensiveBaseMultiplicator>3.3</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
 			<DefensiveEffectType>STATUS_ARMOR_HP_DEDUCTION_BONUS</DefensiveEffectType> 
 			<EffectConnectDescription></EffectConnectDescription>
 			<EffectIgnoresShields>false</EffectIgnoresShields>
@@ -1402,12 +1402,12 @@
 			<Explosive>false</Explosive>
 			<PiercingDamagePreservedOnImpact>0</PiercingDamagePreservedOnImpact>
 			<PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
-			<DefensiveBasePowerConsumption>0</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
-			 <DefensiveBaseMultiplicator>1</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
+			<DefensiveBasePowerConsumption>100</DefensiveBasePowerConsumption>  <!-- Power cost per block per second, % bonus is based on the system/ship mass size ratio -->
+			 <DefensiveBaseMultiplicator>1.3</DefensiveBaseMultiplicator> <!-- multiplied with effect block count -->
 			<DefensiveEffectType>STATUS_SHIELD_HARDEN</DefensiveEffectType> 
 			<EffectConnectDescription>Does extra damage against shields,\nbut less against blocks</EffectConnectDescription>
 			<EffectIgnoresShields>false</EffectIgnoresShields>
-			<DefensiveEffectCapPercent>0.</DefensiveEffectCapPercent>
+			<DefensiveEffectCapPercent>0.9</DefensiveEffectCapPercent>
 		</BasicValues>
 	</IonEffect>
 
