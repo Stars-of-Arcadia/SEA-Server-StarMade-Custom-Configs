@@ -161,6 +161,7 @@
 			<MinThrustMassRatio>0.0</MinThrustMassRatio> <!-- minimum thrust to mass ratio multiplied with server max speed -->
 			<MaxThrustMassRatio>3.5</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
 			<ThrustMassRatioMaxSpeedAddition>0.5</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
+
 			<ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
 			<ThrustRotPercentMult>75.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
 			<IntertiaPow>0.25</IntertiaPow> <!-- additional multiplier of ratio -->
@@ -690,7 +691,7 @@
 			</Beam>
 			<Pulse>
 				<Damage style="buff" value="29" linear="true" />
-				<Reload style="nerf" inverse="19" />
+				<Reload style="nerf" inverse="true" value="19" />
 				<Distance style="nerf" value="5" />
 				<Speed style="nerf" value="2" />
 				<Split style="buff" value="29" />
